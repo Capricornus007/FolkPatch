@@ -121,6 +121,8 @@ jobs:
     needs: prepare
     if: needs.prepare.outputs.build_release == 'true'
     runs-on: ubuntu-latest
+    env:
+      HAS_KEYSTORE: ${{ secrets.KEYSTORE_BASE64 != '' }}
 
     steps:
       - uses: actions/checkout@v5
@@ -134,12 +136,12 @@ jobs:
         run: ./gradlew printVersion --no-daemon
 
       - name: Decode keystore
-        if: secrets.KEYSTORE_BASE64 != ''
+        if: env.HAS_KEYSTORE == 'true'
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > FolkPatch.jks
 
       - name: Create keystore.properties
-        if: secrets.KEYSTORE_BASE64 != ''
+        if: env.HAS_KEYSTORE == 'true'
         run: |
           cat > keystore.properties << 'EOF'
           KEYSTORE_FILE=../FolkPatch.jks
@@ -149,7 +151,7 @@ jobs:
           EOF
 
       - run: ./gradlew assembleRelease --no-daemon
-        if: secrets.KEYSTORE_BASE64 != ''
+        if: env.HAS_KEYSTORE == 'true'
 
       - name: Debug APK location
         run: find app/build/outputs -name "*.apk" -type f || echo "No APK found"
@@ -161,7 +163,7 @@ jobs:
           [ -n "$APK" ] && mv "$APK" "FolkPatch-Release-${SHORT}.apk"
 
       - uses: actions/upload-artifact@v4
-        if: secrets.KEYSTORE_BASE64 != ''
+        if: env.HAS_KEYSTORE == 'true'
         with:
           name: folkpatch-release-${{ github.sha }}
           path: FolkPatch-Release-*.apk
