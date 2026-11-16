@@ -89,14 +89,14 @@
     <string name="settings_clear_super_key_dialog">Вы действительно хотите продолжить?</string>
     <string name="settings_sucompat">Совместимость со старым su</string>
     <string name="settings_sucompat_summary">Включить совместимость со старым su (если su не работает)</string>
-    <string name="settings_selinux_hide">Скрыть изменение SELinux (Тест)</string>
-    <string name="settings_selinux_hide_summary">Скрывает изменения SELinux от обнаружения пользовательскими процессами (эта функция может быть нестабильной). Безопасный режим может отключить эту функцию.</string>
+    <string name="settings_selinux_hide">Скрывать изменения SELinux (тест)</string>
+    <string name="settings_selinux_hide_summary">Скрывает изменения SELinux от обнаружения процессами пользователя (может быть нестабильно). В безопасном режиме отключается.</string>
     <string name="settings_selinux_hide_warning_title">Предупреждение</string>
-    <string name="settings_selinux_hide_warning_below_5_10">Эта функция протестирована только на ядре 5.10 и выше и может быть нестабильной на более старых версиях ядра.</string>
-    <string name="settings_selinux_hide_warning_non_gki">Не-GKI ядра несут больший риск и могут вызвать сбой загрузки. Убедитесь, что ваши данные сохранены в резервной копии.</string>
+    <string name="settings_selinux_hide_warning_below_5_10">Проверено только на ядре 5.10 и выше; на более старых версиях может быть нестабильно.</string>
+    <string name="settings_selinux_hide_warning_non_gki">Ядра без GKI несут больший риск и могут привести к сбою загрузки. Убедитесь, что данные скопированы.</string>
 
     <string name="su_exclude_all_title">Исключить все</string>
-    <string name="su_exclude_all_confirm">Вы уверены, что хотите исключить все приложения без root-прав?</string>
+    <string name="su_exclude_all_confirm">Исключить все приложения без root?</string>
 
     <string name="home_learn_apatch">Изучить FolkPatch</string>
     <string name="home_click_to_learn_apatch">Узнайте о функциях FolkPatch и как их использовать</string>
@@ -148,7 +148,7 @@
 
     <string name="patch_title">Патч</string>
 
-    <string name="patch_config_title">Патчи</string>
+    <string name="patch_config_title">Конфигурации патчей</string>
     <string name="patch_mode_bootimg_patch">Режим: Патч</string>
     <string name="patch_mode_patch_and_install">Режим: Патч и установка</string>
     <string name="patch_mode_install_to_next_slot">Режим: Установка в неактивный слот (После OTA)</string>
@@ -165,7 +165,7 @@
     <string name="patch_item_kpimg">kpimg</string>
     <string name="patch_item_kpimg_version">Версия:</string>
     <string name="patch_item_kpimg_comile_time">Время:</string>
-    <string name="patch_item_kpimg_config">Конфигурация:</string>
+    <string name="patch_item_kpimg_config">Конфиг.:</string>
     <string name="patch_item_new_extra_kpm">Встроить новый</string>
     <string name="patch_item_existed_extra_kpm">Существует</string>
     <string name="patch_item_extra_name">Имя:</string>
@@ -216,7 +216,7 @@
     <string name="kpm_embedded">Встроен</string>
     <string name="kpm_loaded">Загружен</string>
     <string name="kpm_load_toast_succ">Загрузка успешна</string>
-    <string name="kpm_install_toast_succ">Успешно установлено; вступит в силу после перезагрузки</string>
+    <string name="kpm_install_toast_succ">Установлено; вступит в силу после перезагрузки</string>
     <string name="kpm_load_toast_failed">Загрузка не удалась</string>
     <string name="kpm_unload_confirm">Выгрузить модуль %s?</string>
     <string name="kpm_unload">Выгрузить</string>
@@ -299,7 +299,7 @@
     <string name="apm_mount_warning_message">По умолчанию модули не монтируются. Используйте встроенную систему монтирования или метамодули.</string>
     <string name="apm_mount_warning_button">Понятно</string>
     <string name="apm_reboot_to_apply">Перезагрузите, чтобы применить изменения</string>
-    <string name="apm_changelog">Список изменений</string>
+    <string name="apm_changelog">Журнал изменений</string>
     <string name="apm_update">Обновить</string>
     <string name="apm_downloading">Загрузка модуля: %s</string>
     <string name="apm_start_downloading">Начать загрузку: %s</string>
@@ -328,7 +328,7 @@
     <string name="module_shortcut_icon">Иконка ярлыка</string>
     <string name="module_shortcut_type">Тип ярлыка</string>
     <string name="module_shortcut_type_webui">WebUI</string>
-    <string name="module_shortcut_type_action">Action</string>
+    <string name="module_shortcut_type_action">Действие</string>
     <string name="module_shortcut_icon_default">Использовать иконку по умолчанию</string>
     <string name="module_shortcut_icon_select">Выбрать иконку</string>
     <string name="enable_web_debugging">Включить отладку WebView</string>
@@ -346,8 +346,8 @@
     <string name="settings_fold_system_module_summary">Нажмите на карточку модуля, чтобы развернуть/свернуть действия</string>
         <string name="settings_simple_list_bottom_bar">Простая нижняя панель списка</string>
         <string name="settings_simple_list_bottom_bar_summary">Использовать стиль кнопок только с иконками для действий модуля, вдохновлено APatch</string>
-    <string name="settings_spliced_card_group">Spliced Card Group</string>
-    <string name="settings_spliced_card_group_summary">Use M3E continuous card group style for module list</string>
+    <string name="settings_spliced_card_group">Группа склеенных карточек</string>
+    <string name="settings_spliced_card_group_summary">Стиль непрерывной группы карточек M3E для списка модулей</string>
     <string name="settings_show_kpm_status_badge">Показывать значок статуса KPM</string>
     <string name="settings_show_kpm_status_badge_summary">Показывать значок Встроен/Загружен на карточках KPM</string>
     <string name="settings_show_more_module_info">Показать подробности о модуле</string>
@@ -524,7 +524,7 @@ KernelPatch требует образ boot для патча.
     <string name="settings_use_system_color_theme_summary">Использовать цветовую тему, сгенерированную системой из обоев</string>
     <string name="settings_custom_color_theme">Цветовая тема</string>
 
-    <string name="amber_theme">Янтарная</string>
+    <string name="amber_theme">Янтарный</string>
     <string name="blue_theme">Синяя</string>
     <string name="blue_grey_theme">Серо-синяя</string>
     <string name="brown_theme">Коричневая</string>
@@ -535,18 +535,18 @@ KernelPatch требует образ boot для патча.
     <string name="indigo_theme">Индиго</string>
     <string name="light_blue_theme">Светло-синяя</string>
     <string name="light_green_theme">Светло-зелёная</string>
-    <string name="lime_theme">Лаймовая</string>
+    <string name="lime_theme">Лаймовый</string>
     <string name="orange_theme">Оранжевая</string>
     <string name="pink_theme">Розовая</string>
     <string name="purple_theme">Фиолетовая</string>
     <string name="red_theme">Красная</string>
     <string name="sakura_theme">Сакура</string>
-    <string name="teal_theme">Бирюзовая</string>
+    <string name="teal_theme">Бирюзовый</string>
     <string name="yellow_theme">Жёлтая</string>
     <string name="theme_color">Цвет темы</string>
     <string name="theme_light">Светлая</string>
     <string name="theme_dark">Тёмная</string>
-    <string name="theme_system">Система</string>
+    <string name="theme_system">Системная</string>
     <string name="loading_modules">Загрузка модулей…</string>
     <string name="loading_scripts">Поиск скриптов…</string>
     <string name="loading_themes">Загрузка тем…</string>
@@ -746,7 +746,7 @@ KernelPatch требует образ boot для патча.
     <string name="settings_grid_working_card_hide_check">Скрыть значок статуса</string>
     <string name="settings_grid_working_card_hide_check_summary">Скрыть галочку или значок предупреждения на рабочей карточке</string>
     <string name="settings_grid_working_card_hide_text">Скрыть текст статуса</string>
-    <string name="settings_grid_working_card_hide_text_summary">Скрыть текст «Работает» или «Не установлено» на рабочей карточке</string>
+    <string name="settings_grid_working_card_hide_text_summary">Скрывать текст «Работает» или «Не установлено» на рабочей карточке</string>
     <string name="settings_grid_working_card_hide_mode">Скрыть режим работы</string>
     <string name="settings_grid_working_card_hide_mode_summary">Скрыть текст «Full» или «Half» на рабочей карточке</string>
     <string name="settings_list_card_hide_status_badge">Использовать классический эмодзи</string>
@@ -907,12 +907,12 @@ KernelPatch требует образ boot для патча.
     <string name="theme_store_title">Магазин тем</string>
     <string name="theme_source_official">Официальные</string>
     <string name="theme_source_third_party">Третьи лица</string>
-    <string name="theme_source_local">Локальный</string>
+    <string name="theme_source_local">Локальная</string>
     <string name="theme_store_author">Автор: %s</string>
     <string name="theme_store_version">Версия: %s</string>
     <string name="theme_source">Источник</string>
-    <string name="theme_store_download_failed">Загрузка не удалась</string>
-    <string name="theme_store_download">Загрузить</string>
+    <string name="theme_store_download_failed">Не удалось скачать</string>
+    <string name="theme_store_download">Скачать</string>
     <string name="theme_store_search_hint">Поиск тем...</string>
 
     <!-- Update Check Strings -->
@@ -945,7 +945,7 @@ KernelPatch требует образ boot для патча.
     <string name="nav_icon_select_image">Выбрать изображение</string>
     <string name="nav_icon_clear">Сбросить на стандартную</string>
     <string name="nav_icon_custom_selected">Пользовательская</string>
-    <string name="nav_icon_default">Стандартная</string>
+    <string name="nav_icon_default">По умолчанию</string>
     <string name="nav_icon_cleared">Иконка сброшена</string>
     <string name="nav_icon_set">Иконка обновлена</string>
     <string name="nav_icon_set_failed">Не удалось сохранить иконку</string>
@@ -1056,7 +1056,7 @@ KernelPatch требует образ boot для патча.
     <string name="theme_store_filter_source_all">Все</string>
     <string name="theme_store_filter_type">Тип Устройства</string>
     <string name="theme_store_filter_apply">Применить</string>
-    <string name="theme_store_filter_reset">Сброс</string>
+    <string name="theme_store_filter_reset">Сбросить</string>
 
     <!-- Video Background Settings -->
     <string name="settings_video_background">Видеофон</string>
@@ -1094,7 +1094,7 @@ KernelPatch требует образ boot для патча.
     <string name="home_info_device_model">Модель устройства</string>
     <string name="home_info_running_mode">Режим работы</string>
     <string name="home_info_mode_full">Полный</string>
-    <string name="home_info_mode_half">Частичный</string>
+    <string name="home_info_mode_half">Половинный</string>
     <string name="home_version">Версия: %s</string>
     <string name="home_zygisk_implement">Реализация Zygisk</string>
     <string name="home_mount_implement">Реализация монтирования</string>
@@ -1121,14 +1121,14 @@ KernelPatch требует образ boot для патча.
     <string name="settings_sound_effect_source_local">Локальный файл</string>
     <string name="settings_sound_effect_source_preset">Предустановка</string>
     <string name="settings_sound_effect_preset_title">Предустановленные звуки</string>
-    <string name="settings_select_sound_effect">Выбрать звуковой файл</string>
-    <string name="settings_sound_effect_selected">Звуковой файл выбран</string>
+    <string name="settings_select_sound_effect">Выбрать звуковой эффект</string>
+    <string name="settings_sound_effect_selected">Файл звукового эффекта выбран</string>
     <string name="settings_sound_effect_scope">Область действия</string>
-    <string name="settings_sound_effect_scope_global">Везде</string>
+    <string name="settings_sound_effect_scope_global">Везде (глобально)</string>
     <string name="settings_sound_effect_scope_bottom_bar">Только нижняя панель</string>
     <string name="settings_clear_sound_effect">Очистить звуковой эффект</string>
-    <string name="settings_clear_sound_effect_confirm">Вы уверены, что хотите удалить звуковой эффект?</string>
-    <string name="settings_sound_effect_cleared">Звуковой эффект удален</string>
+    <string name="settings_clear_sound_effect_confirm">Очистить звуковой эффект?</string>
+    <string name="settings_sound_effect_cleared">Звуковой эффект очищен</string>
 
     <string name="settings_startup_sound">Звук запуска</string>
     <string name="settings_startup_sound_summary">Воспроизводить звук при запуске приложения</string>
@@ -1169,19 +1169,19 @@ KernelPatch требует образ boot для патча.
     <string name="settings_test_webdav">Проверить соединение WebDAV</string>
     <string name="webdav_test_success">Тест успешен</string>
     <string name="webdav_test_failed">Тест не удался: %s</string>
-    <string name="settings_backup_now">Создать резервную копию сейчас</string>
+    <string name="settings_backup_now">Создать копию сейчас</string>
     <string name="backup_failed">Ошибка резервного копирования: %s</string>
-    <string name="settings_restore_backup">Восстановить из резервной копии</string>
-    <string name="restore_success">Восстановление успешно</string>
-    <string name="restore_failed">Ошибка восстановления: %s</string>
-    <string name="settings_auto_backup">Автоматическое резервное копирование</string>
+    <string name="settings_restore_backup">Восстановить копию</string>
+    <string name="restore_success">Восстановлено</string>
+    <string name="restore_failed">Не удалось восстановить: %s</string>
+    <string name="settings_auto_backup">Автокопирование</string>
     <string name="settings_auto_backup_summary">Автоматическое резервное копирование раз в день</string>
-    <string name="settings_delete_remote_backup">Удалить облачную резервную копию</string>
-    <string name="delete_remote_backup_confirm">Вы уверены, что хотите удалить облачную резервную копию?</string>
-    <string name="delete_success">Удаление успешно</string>
-    <string name="delete_failed">Ошибка удаления: %s</string>
+    <string name="settings_delete_remote_backup">Удалить облачную копию</string>
+    <string name="delete_remote_backup_confirm">Удалить облачную резервную копию?</string>
+    <string name="delete_success">Удалено</string>
+    <string name="delete_failed">Не удалось удалить: %s</string>
     <string name="settings_encrypt_backup">Шифровать резервную копию</string>
-    <string name="settings_encrypt_backup_summary">Шифровать файл резервной копии паролем</string>
+    <string name="settings_encrypt_backup_summary">Шифрует файл резервной копии паролем</string>
     <string name="settings_backup_password">Пароль резервной копии</string>
     <string name="settings_backup_password_hint">Введите пароль резервной копии</string>
 
@@ -1196,16 +1196,16 @@ KernelPatch требует образ boot для патча.
     <string name="script_library_add_title">Добавить скрипт</string>
     <string name="script_library_select_file">Выбрать файл скрипта</string>
     <string name="script_library_alias">Псевдоним</string>
-    <string name="script_library_alias_hint">Введите псевдоним скрипта (опционально)</string>
+    <string name="script_library_alias_hint">Введите псевдоним скрипта (необязательно)</string>
     <string name="script_library_run">Запустить</string>
     <string name="script_library_delete">Удалить</string>
     <string name="script_library_path">Путь: %s</string>
     <string name="script_library_confirm_delete">Подтвердить удаление скрипта?</string>
     <string name="script_library_delete_success">Скрипт удален успешно</string>
     <string name="script_library_delete_failed">Ошибка удаления скрипта</string>
-    <string name="script_library_add_success">Скрипт добавлен успешно</string>
-    <string name="script_library_add_failed">Ошибка добавления скрипта: %s</string>
-    <string name="script_library_load_failed">Ошибка загрузки библиотеки скриптов</string>
+    <string name="script_library_add_success">Скрипт добавлен</string>
+    <string name="script_library_add_failed">Не удалось добавить скрипт: %s</string>
+    <string name="script_library_load_failed">Не удалось загрузить библиотеку скриптов</string>
     <string name="script_library_output">Вывод выполнения</string>
     <string name="script_library_no_output">Нет вывода</string>
     <string name="script_library_save_log">Сохранить лог</string>
@@ -1222,7 +1222,7 @@ KernelPatch требует образ boot для патча.
     <string name="search_scripts">Поиск скриптов...</string>
 
     <!-- Umount Service -->
-    <string name="settings_umount_service">Umount Service</string>
+    <string name="settings_umount_service">Служба размонтирования</string>
     <string name="settings_umount_service_summary">Настройка точек монтирования для автоматического отключения при загрузке</string>
     <string name="umount_config_title">Настройка Umount</string>
     <string name="umount_config_enabled">Включить Umount</string>
@@ -1278,7 +1278,7 @@ KernelPatch требует образ boot для патча.
     <string name="home_storage_partitions">Разделы хранилища</string>
     <string name="home_device_status_cpu_freq">Частота ЦПУ</string>
     <string name="home_network_rx">Загрузка</string>
-    <string name="home_network_tx">Отдача</string>
+    <string name="home_network_tx">Отправка</string>
     <string name="settings_home_layout_stats">StatsUI</string>
     <string name="home_stats_more_options">Ещё</string>
     <string name="home_stats_kp_label">KP</string>
@@ -1421,7 +1421,7 @@ KernelPatch требует образ boot для патча.
     <string name="reboot_soft">Мягкая перезагрузка</string>
     <string name="kpm_installed">Установлен</string>
     <string name="kpm_disabled">Отключён (вступит в силу после перезагрузки)</string>
-    <string name="kpm_embedded_unload_invalid">Встроенные KPM нельзя выгрузить; после перезагрузки они останутся активными.</string>
+    <string name="kpm_embedded_unload_invalid">Встроенные KPM нельзя выгрузить; они останутся активными после перезагрузки.</string>
     <string name="settings_faq">Частые вопросы</string>
     <string name="settings_bug_feedback">Сообщить об ошибке</string>
     <string name="settings_clear_cache">Очистить кэш</string>
@@ -1451,4 +1451,45 @@ KernelPatch требует образ boot для патча.
     <string name="wallpaper_preview">Предпросмотр</string>
     <string name="wallpaper_set_background">Сделать фоном</string>
     <string name="wallpaper_background_set">Фон обновлён</string>
+    <string name="dont_show_again">Больше не показывать</string>
+    <string name="got_it">Понятно</string>
+    <string name="msg_selinux_enforcing_confirm">Переключить в принудительный режим? SELinux будет полностью применять все правила доступа и отклонять несанкционированные попытки доступа.</string>
+    <string name="msg_selinux_permissive_warning">Переключение в разрешительный режим отключит принудительное применение SELinux. Это снижает безопасность: нарушения будут только записываться, но не блокироваться. Продолжить?</string>
+    <string name="settings_show_disable_all_modules">Показывать кнопку «Отключить все модули»</string>
+    <string name="settings_show_disable_all_modules_summary">Показывает кнопку отключения всех модулей сразу на странице модулей</string>
+    <string name="shizuku_manage_apps">Управление авторизованными приложениями</string>
+    <string name="ink_wash_theme">Тушь</string>
+    <string name="theme_download">Скачать</string>
+    <string name="theme_install">Установить</string>
+    <string name="theme_install_failed">Не удалось установить</string>
+    <string name="theme_install_success">Установлено</string>
+    <string name="focus_card_background_title">Обои карточки</string>
+    <string name="focus_card_background_clear">Очистить обои карточки</string>
+    <string name="focus_card_background_clear_confirm">Очистить обои этой карточки?</string>
+    <string name="focus_card_background_cleared">Обои карточки очищены</string>
+    <string name="focus_card_background_error">Не удалось сохранить обои карточки</string>
+    <string name="focus_card_background_saved">Обои карточки сохранены</string>
+    <string name="focus_card_permission_required">Предоставьте разрешение на доступ к хранилищу, чтобы выбрать обои</string>
+    <string name="settings_custom_badge_text_built_in">Встроенный</string>
+    <string name="settings_custom_badge_text_full_half">Полный/Половинный (по умолчанию)</string>
+    <string name="patch_mode_restore">Режим: Восстановление</string>
+    <string name="reboot_download_confirm">Перезагрузить в режим Download? Устройство загрузится в интерфейс прошивки.</string>
+    <string name="reboot_edl_confirm">Перезагрузить в режим EDL (аварийная загрузка)? Экран останется чёрным, восстановить можно только инструментом глубокой прошивки.</string>
+        <string name="app_title_apatch">APatch</string>
+        <string name="app_title_apatch_folk">APatch Folk</string>
+        <string name="app_title_apatchx">APatch X</string>
+        <string name="app_title_folkpatch">FolkPatch</string>
+        <string name="app_title_fpatch">FPatch</string>
+        <string name="app_title_kernelpatch">KernelPatch</string>
+        <string name="app_title_kernelsu">KernelSU</string>
+        <string name="app_title_magicpatch">MagicPatch</string>
+        <string name="app_title_superpatch">SuperPatch</string>
+        <string name="app_title_superroot">SuperRoot</string>
+        <string name="app_title_supersu">SuperSU</string>
+        <string name="app_title_superuser">Superuser</string>
+        <string name="path_hide_paths_placeholder">/storage/emulated/0/file.txt\n/storage/emulated/0/folder</string>
+        <string name="settings_custom_badge_text_gki">GKI</string>
+        <string name="settings_custom_badge_text_lkm">LKM</string>
+        <string name="settings_custom_badge_text_n_gki">N-GKI</string>
+        <string name="settings_custom_badge_text_oki">OKI</string>
 </resources>

@@ -24,7 +24,7 @@
     <string name="failure">Fallo</string>
 
     <string name="patch_warnning">La instalación conlleva riesgos. Por favor, asegúrate de tener una copia de seguridad de tus datos.</string>
-    <string name="patch">Parchear</string>
+    <string name="patch">Parche</string>
 
     <string name="kernel_patch">KernelPatch</string>
     <string name="android_patch">AndroidPatch</string>
@@ -86,28 +86,28 @@
     <string name="settings_clear_super_key_dialog">¿Realmente deseas proceder?</string>
     <string name="settings_sucompat">Compatibilidad su heredada</string>
     <string name="settings_sucompat_summary">Activar compatibilidad su heredada (para cuando su no funciona)</string>
-    <string name="settings_selinux_hide">Ocultar modificación de SELinux (Prueba)</string>
-    <string name="settings_selinux_hide_summary">Oculta los cambios de SELinux para que los procesos de usuario no los detecten (esta función puede ser inestable). El modo seguro puede desactivar esta función.</string>
+    <string name="settings_selinux_hide">Ocultar modificación de SELinux (prueba)</string>
+    <string name="settings_selinux_hide_summary">Oculta los cambios de SELinux para que no sean detectados por procesos de usuario (puede ser inestable). El modo seguro la desactiva.</string>
     <string name="settings_selinux_hide_warning_title">Advertencia</string>
-    <string name="settings_selinux_hide_warning_below_5_10">Esta función solo se ha probado en kernels 5.10 y superiores y puede ser inestable en versiones inferiores.</string>
-    <string name="settings_selinux_hide_warning_non_gki">Los kernels no GKI conllevan un mayor riesgo y pueden provocar fallos de arranque. Asegúrate de tener una copia de seguridad de tus datos.</string>
+    <string name="settings_selinux_hide_warning_below_5_10">Solo probado en kernels 5.10 o superiores; puede ser inestable en versiones anteriores.</string>
+    <string name="settings_selinux_hide_warning_non_gki">Los kernels no GKI conllevan mayor riesgo y pueden provocar fallos de arranque. Asegúrate de tener copia de seguridad.</string>
     <string name="settings_grid_working_card_hide_check">Ocultar icono de estado</string>
     <string name="settings_grid_working_card_hide_check_summary">Ocultar la marca de verificación o icono de advertencia en la tarjeta de estado</string>
     <string name="settings_grid_working_card_hide_text">Ocultar texto de estado</string>
-    <string name="settings_grid_working_card_hide_text_summary">Ocultar el texto \'Funcionando\' o \'No instalado\' en la tarjeta de estado</string>
+    <string name="settings_grid_working_card_hide_text_summary">Oculta el texto «En funcionamiento» o «No instalado» de la tarjeta de trabajo</string>
     <string name="settings_grid_working_card_hide_mode">Ocultar modo de trabajo</string>
     <string name="settings_grid_working_card_hide_mode_summary">Ocultar el texto \'Full\' o \'Half\' en la tarjeta de estado</string>
 
 
     <string name="su_exclude_all_title">Excluir todo</string>
-    <string name="su_exclude_all_confirm">¿Estás seguro de que deseas excluir todas las apps no root?</string>
+    <string name="su_exclude_all_confirm">¿Seguro que quieres excluir todas las apps sin root?</string>
     <string name="su_batch_exclude_title">Exclusión por lotes</string>
     <string name="su_batch_exclude_content">Excluir inyección para todas las apps no ROOT, por favor selecciona una acción</string>
     <string name="su_exclude_btn">Excluir</string>
     <string name="su_exclude_reverse_btn">Invertir</string>
 
     <!-- SuperUser App Action Dialog -->
-    <string name="su_app_action_title">Acción de Aplicación</string>
+    <string name="su_app_action_title">Acción de la app</string>
     <string name="su_app_action_content">Por favor selecciona una acción para la aplicación</string>
     <string name="su_app_action_launch">Iniciar Aplicación</string>
     <string name="su_app_action_force_stop">Forzar Detención</string>
@@ -174,9 +174,9 @@
     <string name="home_ap_cando_uninstall">Desinstalar</string>
     <string name="home_ap_cando_reboot">Reiniciar</string>
 
-    <string name="patch_title">Parchear</string>
+    <string name="patch_title">Parche</string>
 
-    <string name="patch_config_title">Parches</string>
+    <string name="patch_config_title">Configuraciones de parches</string>
     <string name="patch_mode_bootimg_patch">Modo: Parchear</string>
     <string name="patch_mode_patch_and_install">Modo: Parchear e instalar</string>
     <string name="patch_mode_install_to_next_slot">Modo: Instalar en ranura inactiva (Tras OTA)</string>
@@ -194,7 +194,7 @@
     <string name="patch_item_kpimg">kpimg</string>
     <string name="patch_item_kpimg_version">Versión:</string>
     <string name="patch_item_kpimg_comile_time">Hora:</string>
-    <string name="patch_item_kpimg_config">Configuración:</string>
+    <string name="patch_item_kpimg_config">Config.:</string>
     <string name="patch_item_new_extra_kpm">Incrustar nuevo</string>
     <string name="patch_item_existed_extra_kpm">Existente</string>
     <string name="patch_item_extra_name">Nombre:</string>
@@ -202,7 +202,7 @@
     <string name="patch_item_extra_author">Autor:</string>
     <string name="patch_item_extra_kpm_license">Licencia:</string>
     <string name="patch_item_extra_kpm_desciption">Descripción:</string>
-    <string name="patch_item_extra_args">Args:</string>
+    <string name="patch_item_extra_args">Argumentos:</string>
     <string name="patch_item_extra_event">Evento:</string>
     <string name="patch_item_skey">SuperKey</string>
     <string name="patch_custom_superkey">SuperKey personalizado</string>
@@ -245,7 +245,7 @@
     <string name="kpm_embedded">Incrustado</string>
     <string name="kpm_loaded">Cargado</string>
     <string name="kpm_load_toast_succ">Carga exitosa</string>
-    <string name="kpm_install_toast_succ">Instalado correctamente; se aplicará después de reiniciar</string>
+    <string name="kpm_install_toast_succ">Instalado correctamente; surte efecto tras reiniciar</string>
     <string name="kpm_load_toast_failed">Error en la carga</string>
     <string name="kpm_unload_confirm">¿Descargar el módulo %s?</string>
     <string name="kpm_unload">Descargar</string>
@@ -257,7 +257,7 @@
     <string name="kpm_license">Licencia</string>
     <string name="kpm_author">Autor</string>
     <string name="kpm_desc">Descripción</string>
-    <string name="kpm_args">Args</string>
+    <string name="kpm_args">Argumentos</string>
 
     <string name="su_title">Superusuario</string>
     <string name="su_selinux_via_hook">Omitir mediante hook</string>
@@ -296,14 +296,14 @@
     <string name="apm_undo_uninstall_failed">Error al restaurar: %s</string>
     <string name="apm_version">Versión</string>
     <string name="apm_author">Autor</string>
-    <string name="apm_desc">Desc</string>
+    <string name="apm_desc">Descripción</string>
     <string name="apm_overlay_fs_not_available">¡Los módulos no están disponibles porque OverlayFS está deshabilitado por el kernel!</string>
     <string name="apm_magisk_conflict">¡Los módulos no están disponibles debido a un conflicto con Magisk!</string>
     <string name="apm_mount_warning_title">Aviso importante</string>
     <string name="apm_mount_warning_message">Por defecto, los módulos no se montan. Utilice el sistema de montado integrado o metamódulos.</string>
     <string name="apm_mount_warning_button">Entendido</string>
     <string name="apm_reboot_to_apply">Reiniciar para aplicar</string>
-    <string name="apm_changelog">Registro de cambios</string>
+    <string name="apm_changelog">Novedades</string>
     <string name="apm_update">Actualizar</string>
     <string name="apm_downloading">Descargando módulo: %s</string>
     <string name="apm_start_downloading">Iniciando descarga: %s</string>
@@ -331,7 +331,7 @@
     <string name="module_shortcut_icon">Icono del acceso directo</string>
     <string name="module_shortcut_type">Tipo de acceso directo</string>
     <string name="module_shortcut_type_webui">WebUI</string>
-    <string name="module_shortcut_type_action">Action</string>
+    <string name="module_shortcut_type_action">Acción</string>
     <string name="module_shortcut_icon_default">Usar icono predeterminado</string>
     <string name="module_shortcut_icon_select">Seleccionar icono</string>
     <string name="enable_web_debugging">Habilitar depuración WebView</string>
@@ -371,8 +371,8 @@
     <string name="settings_fold_system_module_summary">Haz clic en la tarjeta del módulo para expandir/contraer acciones</string>
     <string name="settings_simple_list_bottom_bar">Barra Inferior Simple</string>
     <string name="settings_simple_list_bottom_bar_summary">Usar botones solo con iconos para acciones de módulo, inspirado en APatch</string>
-    <string name="settings_spliced_card_group">Spliced Card Group</string>
-    <string name="settings_spliced_card_group_summary">Use M3E continuous card group style for module list</string>
+    <string name="settings_spliced_card_group">Grupo de tarjetas unidas</string>
+    <string name="settings_spliced_card_group_summary">Usa el estilo de grupo de tarjetas continuo de M3E en la lista de módulos</string>
     <string name="settings_show_kpm_status_badge">Mostrar Insignia de Estado de KPM</string>
     <string name="settings_show_kpm_status_badge_summary">Mostrar insignia Incrustado/Cargado en tarjetas de KPM</string>
     <string name="apm_install_confirm_title">Instalar Módulo</string>
@@ -902,7 +902,7 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="theme_store_author">Autor: %s</string>
     <string name="theme_store_version">Versión: %s</string>
     <string name="theme_source">Fuente</string>
-    <string name="theme_store_download_failed">Descarga fallida</string>
+    <string name="theme_store_download_failed">Error al descargar</string>
     <string name="theme_store_download">Descargar</string>
     <string name="theme_store_search_hint">Buscar temas...</string>
 
@@ -935,7 +935,7 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="nav_icon_select_image">Seleccionar imagen</string>
     <string name="nav_icon_clear">Restablecer por defecto</string>
     <string name="nav_icon_custom_selected">Personalizado</string>
-    <string name="nav_icon_default">Por defecto</string>
+    <string name="nav_icon_default">Predeterminado</string>
     <string name="nav_icon_cleared">Icono restablecido</string>
     <string name="nav_icon_set">Icono actualizado</string>
     <string name="nav_icon_set_failed">Error al guardar el icono</string>
@@ -981,7 +981,7 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="profile_avatar_source_qq">Avatar de QQ</string>
     <string name="profile_avatar_source_gravatar">Gravatar</string>
     <string name="profile_avatar_qq_hint">Número de QQ</string>
-    <string name="profile_avatar_gravatar_hint">Correo electrónico</string>
+    <string name="profile_avatar_gravatar_hint">Correo</string>
     <string name="profile_avatar_fetch_failed">No se pudo obtener el avatar</string>
     <string name="profile_crop_avatar">Recortar avatar</string>
     <string name="profile_restore_default">Restaurar valores</string>
@@ -1076,8 +1076,8 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="home_info_device_slot">Ranura del Dispositivo</string>
     <string name="home_info_device_model">Modelo del Dispositivo</string>
     <string name="home_info_running_mode">Modo de Ejecución</string>
-    <string name="home_info_mode_full">Completo (Full)</string>
-    <string name="home_info_mode_half">Medio (Half)</string>
+    <string name="home_info_mode_full">Completo</string>
+    <string name="home_info_mode_half">Parcial</string>
     <string name="home_version">Versión: %s</string>
     <string name="home_zygisk_implement">Implementación de Zygisk</string>
     <string name="home_mount_implement">Implementación de Montaje</string>
@@ -1108,20 +1108,20 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="badge_apm">Mostrar insignia de módulo del sistema</string>
     <string name="badge_kernel">Mostrar insignia de módulo del kernel</string>
     <string name="settings_sound_effect">Efecto de sonido</string>
-    <string name="settings_sound_effect_summary">Reproducir efecto de sonido al hacer clic</string>
-    <string name="settings_sound_effect_enabled">Habilitado</string>
+    <string name="settings_sound_effect_summary">Reproduce un efecto de sonido al tocar</string>
+    <string name="settings_sound_effect_enabled">Activado</string>
     <string name="settings_sound_effect_playing">Seleccionado: %s</string>
     <string name="settings_sound_effect_source">Fuente de sonido</string>
     <string name="settings_sound_effect_source_local">Archivo local</string>
     <string name="settings_sound_effect_source_preset">Predeterminado</string>
     <string name="settings_sound_effect_preset_title">Sonidos predeterminados</string>
-    <string name="settings_select_sound_effect">Seleccionar archivo de sonido</string>
-    <string name="settings_sound_effect_selected">Archivo de sonido seleccionado</string>
-    <string name="settings_sound_effect_scope">Alcance del efecto</string>
-    <string name="settings_sound_effect_scope_global">Global (En todas partes)</string>
+    <string name="settings_select_sound_effect">Seleccionar efecto de sonido</string>
+    <string name="settings_sound_effect_selected">Archivo de efecto de sonido seleccionado</string>
+    <string name="settings_sound_effect_scope">Ámbito del efecto</string>
+    <string name="settings_sound_effect_scope_global">Global (en cualquier lugar)</string>
     <string name="settings_sound_effect_scope_bottom_bar">Solo barra inferior</string>
     <string name="settings_clear_sound_effect">Borrar efecto de sonido</string>
-    <string name="settings_clear_sound_effect_confirm">¿Estás seguro de que quieres borrar el efecto de sonido?</string>
+    <string name="settings_clear_sound_effect_confirm">¿Seguro que quieres borrar el efecto de sonido?</string>
     <string name="settings_sound_effect_cleared">Efecto de sonido borrado</string>
 
     <string name="settings_startup_sound">Sonido de inicio</string>
@@ -1138,13 +1138,13 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="settings_configure_webdav">Configurar servicio WebDAV</string>
     <string name="webdav_config_title">Configuración WebDAV</string>
     <string name="webdav_url">URL de WebDAV</string>
-    <string name="webdav_username">Nombre de usuario</string>
+    <string name="webdav_username">Usuario</string>
     <string name="webdav_password">Contraseña</string>
     <string name="webdav_uploading">Subiendo a WebDAV...</string>
     <string name="webdav_backup_success">Copia de seguridad WebDAV exitosa</string>
     <string name="webdav_backup_failed">Error en copia de seguridad WebDAV: %s</string>
     <string name="save">Guardar</string>
-    <string name="test">Probar</string>
+    <string name="test">Prueba</string>
     <string name="webdav_path_label">Ruta (ej. /Backup)</string>
     <string name="webdav_view_logs">Ver registros</string>
     <string name="webdav_backup_logs_title">Registros de copia de seguridad</string>
@@ -1158,26 +1158,26 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="settings_category_backup">Configuración de copia de seguridad</string>
     <string name="settings_enable_cloud_backup">Habilitar copia de seguridad en la nube</string>
     <string name="settings_webdav_url">URL de WebDAV</string>
-    <string name="settings_webdav_username">Usuario de WebDAV</string>
-    <string name="settings_webdav_password">Contraseña de WebDAV</string>
+    <string name="settings_webdav_username">Usuario WebDAV</string>
+    <string name="settings_webdav_password">Contraseña WebDAV</string>
     <string name="settings_test_webdav">Probar conexión WebDAV</string>
     <string name="webdav_test_success">Prueba exitosa</string>
     <string name="webdav_test_failed">Prueba fallida: %s</string>
-    <string name="settings_backup_now">Hacer copia de seguridad ahora</string>
-    <string name="backup_failed">Copia de seguridad fallida: %s</string>
+    <string name="settings_backup_now">Copiar ahora</string>
+    <string name="backup_failed">Error al hacer copia de seguridad: %s</string>
     <string name="settings_restore_backup">Restaurar copia de seguridad</string>
-    <string name="restore_success">Restauración exitosa</string>
-    <string name="restore_failed">Restauración fallida: %s</string>
-    <string name="settings_auto_backup">Copia de seguridad automática</string>
-    <string name="settings_auto_backup_summary">Copia de seguridad automática una vez al día</string>
-    <string name="settings_delete_remote_backup">Eliminar copia de seguridad en la nube</string>
-    <string name="delete_remote_backup_confirm">¿Está seguro de que desea eliminar la copia de seguridad en la nube?</string>
-    <string name="delete_success">Eliminación exitosa</string>
-    <string name="delete_failed">Eliminación fallida: %s</string>
+    <string name="restore_success">Restaurado correctamente</string>
+    <string name="restore_failed">Error al restaurar: %s</string>
+    <string name="settings_auto_backup">Copia automática</string>
+    <string name="settings_auto_backup_summary">Hace una copia de seguridad automáticamente una vez al día</string>
+    <string name="settings_delete_remote_backup">Eliminar copia en la nube</string>
+    <string name="delete_remote_backup_confirm">¿Seguro que quieres eliminar la copia de seguridad en la nube?</string>
+    <string name="delete_success">Eliminado correctamente</string>
+    <string name="delete_failed">Error al eliminar: %s</string>
     <string name="settings_encrypt_backup">Cifrar copia de seguridad</string>
-    <string name="settings_encrypt_backup_summary">Cifrar archivo de copia de seguridad con contraseña</string>
-    <string name="settings_backup_password">Contraseña de copia de seguridad</string>
-    <string name="settings_backup_password_hint">Ingrese contraseña de copia de seguridad</string>
+    <string name="settings_encrypt_backup_summary">Cifra el archivo de copia de seguridad con contraseña</string>
+    <string name="settings_backup_password">Contraseña de la copia</string>
+    <string name="settings_backup_password_hint">Introduce la contraseña de la copia</string>
 
     <string name="patch_output_written_to"> Parcheado con éxito, archivo escrito en </string>
     <string name="patch_write_failed"> Error al escribir boot.img parcheado</string>
@@ -1187,10 +1187,10 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="script_library_title">Biblioteca de Scripts</string>
     <string name="script_library_empty">Sin scripts, haz clic en añadir para agregar</string>
     <string name="script_library_add">Añadir Script</string>
-    <string name="script_library_add_title">Añadir Script</string>
+    <string name="script_library_add_title">Añadir script</string>
     <string name="script_library_select_file">Seleccionar archivo de script</string>
     <string name="script_library_alias">Alias</string>
-    <string name="script_library_alias_hint">Ingresa el alias del script (opcional)</string>
+    <string name="script_library_alias_hint">Introduce un alias para el script (opcional)</string>
     <string name="script_library_run">Ejecutar</string>
     <string name="script_library_delete">Eliminar</string>
     <string name="script_library_path">Ruta: %s</string>
@@ -1198,8 +1198,8 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="script_library_delete_success">Script eliminado correctamente</string>
     <string name="script_library_delete_failed">Error al eliminar script</string>
     <string name="script_library_add_success">Script añadido correctamente</string>
-    <string name="script_library_add_failed">Error al añadir script: %s</string>
-    <string name="script_library_load_failed">Error al cargar biblioteca de scripts</string>
+    <string name="script_library_add_failed">Error al añadir el script: %s</string>
+    <string name="script_library_load_failed">Error al cargar la biblioteca de scripts</string>
     <string name="script_library_output">Salida de ejecución</string>
     <string name="script_library_no_output">Sin salida</string>
     <string name="script_library_save_log">Guardar registro</string>
@@ -1216,7 +1216,7 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="search_scripts">Buscar scripts...</string>
 
     <!-- Umount Service -->
-    <string name="settings_umount_service">Umount Service</string>
+    <string name="settings_umount_service">Servicio de desmontaje</string>
     <string name="settings_umount_service_summary">Configurar puntos de montaje para desmontar automáticamente al iniciar</string>
     <string name="umount_config_title">Configuración de Umount</string>
     <string name="umount_config_enabled">Activar Umount</string>
@@ -1423,8 +1423,8 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="jailbreak_triggered">Jailbreak activado. Espera a obtener root y reinicia en modo suave.</string>
     <string name="reboot_soft">Reinicio suave</string>
     <string name="kpm_installed">Instalado</string>
-    <string name="kpm_disabled">Desactivado (se aplicará después de reiniciar)</string>
-    <string name="kpm_embedded_unload_invalid">Los KPM incrustados no se pueden descargar; seguirán activos después de reiniciar.</string>
+    <string name="kpm_disabled">Desactivado (surte efecto tras reiniciar)</string>
+    <string name="kpm_embedded_unload_invalid">Los KPM integrados no se pueden descargar; seguirán activos tras reiniciar.</string>
     <string name="settings_faq">Preguntas frecuentes</string>
     <string name="settings_bug_feedback">Informar de un error</string>
     <string name="settings_clear_cache">Borrar caché</string>
@@ -1438,7 +1438,7 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="theme_download_paused">En pausa</string>
     <string name="settings_wallpaper_gallery">Galería de fondos</string>
     <string name="wallpaper_device_phone">Teléfono</string>
-    <string name="wallpaper_device_tablet">Tableta</string>
+    <string name="wallpaper_device_tablet">Tablet</string>
     <string name="wallpaper_layout_waterfall">Cascada</string>
     <string name="wallpaper_layout_stack">Apilado</string>
     <string name="wallpaper_device_mixed">Mixto</string>
@@ -1454,4 +1454,45 @@ Aquí hay algunas posibles razones para el fallo de autenticación—por favor v
     <string name="wallpaper_preview">Vista previa</string>
     <string name="wallpaper_set_background">Establecer como fondo</string>
     <string name="wallpaper_background_set">Fondo actualizado</string>
+    <string name="dont_show_again">No mostrar de nuevo</string>
+    <string name="got_it">Entendido</string>
+    <string name="msg_selinux_enforcing_confirm">¿Cambiar al modo Obediente? SELinux aplicará todas las reglas de acceso y denegará los intentos no autorizados.</string>
+    <string name="msg_selinux_permissive_warning">Cambiar al modo Permisivo desactivará la aplicación de SELinux. Esto reduce la seguridad, ya que las violaciones solo se registrarán, no se bloquearán. ¿Continuar?</string>
+    <string name="settings_show_disable_all_modules">Mostrar botón «Desactivar todos los módulos»</string>
+    <string name="settings_show_disable_all_modules_summary">Muestra un botón para desactivar todos los módulos a la vez en la página de módulos</string>
+    <string name="shizuku_manage_apps">Gestionar apps autorizadas</string>
+    <string name="ink_wash_theme">Tinta china</string>
+    <string name="theme_download">Descargar</string>
+    <string name="theme_install">Instalar</string>
+    <string name="theme_install_failed">Error al instalar</string>
+    <string name="theme_install_success">Instalado correctamente</string>
+    <string name="theme_source_local">Local</string>
+    <string name="focus_card_background_title">Fondo de tarjeta</string>
+    <string name="focus_card_background_clear">Borrar fondo de la tarjeta</string>
+    <string name="focus_card_background_clear_confirm">¿Seguro que quieres borrar el fondo de esta tarjeta?</string>
+    <string name="focus_card_background_cleared">Fondo de la tarjeta borrado</string>
+    <string name="focus_card_background_error">Error al guardar el fondo de la tarjeta</string>
+    <string name="focus_card_background_saved">Fondo de la tarjeta guardado correctamente</string>
+    <string name="focus_card_permission_required">Concede el permiso de almacenamiento para elegir un fondo</string>
+    <string name="settings_custom_badge_text_built_in">Integrado</string>
+    <string name="settings_custom_badge_text_full_half">Completo/Parcial (predeterminado)</string>
+    <string name="reboot_download_confirm">¿Reiniciar en modo Download? El dispositivo arrancará en la interfaz de flasheo de firmware.</string>
+    <string name="reboot_edl_confirm">¿Reiniciar en modo EDL (descarga de emergencia)? La pantalla quedará en negro y solo podrá recuperarse con una herramienta de flasheo profundo.</string>
+        <string name="app_title_apatch">APatch</string>
+        <string name="app_title_apatch_folk">APatch Folk</string>
+        <string name="app_title_apatchx">APatch X</string>
+        <string name="app_title_folkpatch">FolkPatch</string>
+        <string name="app_title_fpatch">FPatch</string>
+        <string name="app_title_kernelpatch">KernelPatch</string>
+        <string name="app_title_kernelsu">KernelSU</string>
+        <string name="app_title_magicpatch">MagicPatch</string>
+        <string name="app_title_superpatch">SuperPatch</string>
+        <string name="app_title_superroot">SuperRoot</string>
+        <string name="app_title_supersu">SuperSU</string>
+        <string name="app_title_superuser">Superuser</string>
+        <string name="path_hide_paths_placeholder">/storage/emulated/0/file.txt\n/storage/emulated/0/folder</string>
+        <string name="settings_custom_badge_text_gki">GKI</string>
+        <string name="settings_custom_badge_text_lkm">LKM</string>
+        <string name="settings_custom_badge_text_n_gki">N-GKI</string>
+        <string name="settings_custom_badge_text_oki">OKI</string>
 </resources>

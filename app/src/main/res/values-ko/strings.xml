@@ -85,22 +85,22 @@
     <string name="settings_clear_super_key_dialog">계속할까요?</string>
     <string name="settings_sucompat">레거시 su 호환성</string>
     <string name="settings_sucompat_summary">레거시 su 호환성 활성화 (su가 작동하지 않을 때)</string>
-    <string name="settings_selinux_hide">SELinux 수정 숨기기(테스트)</string>
-    <string name="settings_selinux_hide_summary">사용자 프로세스가 SELinux 변경 사항을 감지하지 못하도록 숨깁니다(이 기능은 불안정할 수 있음). 안전 모드에서 이 기능을 비활성화할 수 있습니다.</string>
+    <string name="settings_selinux_hide">SELinux 변경 숨기기 (테스트)</string>
+    <string name="settings_selinux_hide_summary">사용자 프로세스에서 SELinux 변경 사항을 감지하지 못하도록 숨깁니다(불안정할 수 있음). 안전 모드에서는 이 기능이 비활성화됩니다.</string>
     <string name="settings_selinux_hide_warning_title">경고</string>
-    <string name="settings_selinux_hide_warning_below_5_10">이 기능은 커널 5.10 이상에서만 테스트되었으며, 더 낮은 커널 버전에서는 불안정할 수 있습니다.</string>
-    <string name="settings_selinux_hide_warning_non_gki">GKI가 아닌 커널은 더 큰 위험이 있으며 부팅 실패를 유발할 수 있습니다. 데이터를 백업했는지 확인하세요.</string>
+    <string name="settings_selinux_hide_warning_below_5_10">이 기능은 커널 5.10 이상에서만 테스트되었으며, 그 이하의 커널 버전에서는 불안정할 수 있습니다.</string>
+    <string name="settings_selinux_hide_warning_non_gki">비 GKI 커널은 위험도가 높고 부팅 실패를 일으킬 수 있습니다. 데이터가 백업되어 있는지 확인하세요.</string>
     <string name="settings_grid_working_card_hide_check">상태 아이콘 숨김</string>
     <string name="settings_grid_working_card_hide_check_summary">작업 카드에서 확인 또는 경고 아이콘을 숨깁니다.</string>
     <string name="settings_grid_working_card_hide_text">상태 텍스트 숨김</string>
-    <string name="settings_grid_working_card_hide_text_summary">작업 카드에서 \'작업 중\' 또는 \'설치되지 않음\' 텍스트를 숨깁니다.</string>
+    <string name="settings_grid_working_card_hide_text_summary">작업 카드의 ‘실행 중’ 또는 ‘미설치’ 텍스트 숨기기</string>
     <string name="settings_grid_working_card_hide_mode">작업 모드 숨김</string>
     <string name="settings_grid_working_card_hide_mode_summary">작업 카드에서 \'Full\' 또는 \'Half\' 텍스트를 숨깁니다.</string>
 
 
 
     <string name="su_exclude_all_title">모두 제외</string>
-    <string name="su_exclude_all_confirm">Root 권한이 없는 모든 앱을 제외할까요?</string>
+    <string name="su_exclude_all_confirm">모든 비 Root 앱을 제외할까요?</string>
     <string name="su_batch_exclude_title">일괄 제외</string>
     <string name="su_batch_exclude_content">모든 비 Root 앱에 대한 인젝션을 제외합니다. 작업을 선택하세요.</string>
     <string name="su_exclude_btn">제외</string>
@@ -154,7 +154,7 @@
 
     <string name="patch_title">패치</string>
 
-    <string name="patch_config_title">패치</string>
+    <string name="patch_config_title">패치 설정</string>
     <string name="patch_mode_bootimg_patch">모드: 패치</string>
     <string name="patch_mode_patch_and_install">모드: 패치 및 설치</string>
     <string name="patch_mode_install_to_next_slot">모드: 비활성 슬롯에 설치 (OTA 이후)</string>
@@ -223,7 +223,7 @@
     <string name="kpm_embedded">삽입됨</string>
     <string name="kpm_loaded">로드됨</string>
     <string name="kpm_load_toast_succ">로드됨</string>
-    <string name="kpm_install_toast_succ">성공적으로 설치됨. 재부팅 후 적용됩니다</string>
+    <string name="kpm_install_toast_succ">설치 성공, 재부팅 후 적용됩니다</string>
     <string name="kpm_load_toast_failed">로드 실패</string>
     <string name="kpm_unload_confirm">%s 모듈을 언로드할까요?</string>
     <string name="kpm_unload">언로드</string>
@@ -282,7 +282,7 @@
     <string name="apm_mount_warning_message">모듈은 기본적으로 마운트되지 않습니다. 내장 마운트 시스템이나 메타 모듈을 사용하세요.</string>
     <string name="apm_mount_warning_button">확인</string>
     <string name="apm_reboot_to_apply">적용하려면 다시 시작하세요.</string>
-    <string name="apm_changelog">변경 내역</string>
+    <string name="apm_changelog">변경 로그</string>
     <string name="apm_update">업데이트</string>
     <string name="apm_downloading">모듈 다운로드 중: %s</string>
     <string name="apm_start_downloading">다운로드 시작: %s</string>
@@ -346,8 +346,8 @@
     <string name="settings_fold_system_module_summary">모듈 카드를 눌러 작업을 확장하거나 접습니다.</string>
     <string name="settings_simple_list_bottom_bar">간결한 목록 하단 바</string>
     <string name="settings_simple_list_bottom_bar_summary">APatch에서 영감을 받아 모듈 작업에 아이콘 전용 버튼 스타일을 사용합니다.</string>
-    <string name="settings_spliced_card_group">Spliced Card Group</string>
-    <string name="settings_spliced_card_group_summary">Use M3E continuous card group style for module list</string>
+    <string name="settings_spliced_card_group">연결 카드 그룹</string>
+    <string name="settings_spliced_card_group_summary">모듈 목록에 M3E 연속 카드 그룹 스타일을 사용합니다</string>
     <string name="settings_show_kpm_status_badge">KPM 상태 배지 표시</string>
     <string name="settings_show_kpm_status_badge_summary">KPM 카드에 삽입됨/로드됨 상태 배지 표시</string>
     <string name="apm_install_confirm_title">모듈 설치</string>
@@ -357,7 +357,7 @@
     <string name="module_shortcut_icon">바로가기 아이콘</string>
     <string name="module_shortcut_type">바로가기 유형</string>
     <string name="module_shortcut_type_webui">WebUI</string>
-    <string name="module_shortcut_type_action">Action</string>
+    <string name="module_shortcut_type_action">동작</string>
     <string name="module_shortcut_icon_default">기본 아이콘 사용</string>
     <string name="module_shortcut_icon_select">아이콘 선택</string>
     <string name="apm_disable_all_confirm">모든 모듈을 비활성화할까요? 설치된 모든 모듈이 비활성화됩니다.</string>
@@ -528,11 +528,11 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="sakura_theme">사쿠라</string>
     <string name="teal_theme">틸</string>
     <string name="yellow_theme">옐로</string>
-    <string name="ink_wash_theme">잉크 워시</string>
+    <string name="ink_wash_theme">수묵</string>
     <string name="theme_color">테마 색상</string>
     <string name="theme_light">라이트</string>
     <string name="theme_dark">다크</string>
-    <string name="theme_system">시스템</string>
+    <string name="theme_system">시스템 따르기</string>
     <string name="loading_modules">모듈 불러오는 중…</string>
     <string name="loading_scripts">스크립트 검색 중…</string>
     <string name="loading_themes">테마 불러오는 중…</string>
@@ -582,7 +582,7 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="online_module_repo_list_title">저장소 목록</string>
     <string name="online_module_load_error">로드 실패, 새로고침 후 다시 시도해 주세요</string>
     <string name="online_module_no_search_results">일치하는 모듈을 찾을 수 없습니다</string>
-    <string name="online_module_module_detail_download_count">다운로드 수: %1$s</string>
+    <string name="online_module_module_detail_download_count">다운로드: %1$s</string>
     <string name="online_module_module_detail_last_update">마지막 업데이트: %1$s</string>
     <string name="online_module_module_detail_version">버전: %1$s</string>
     <string name="online_module_module_detail_size">크기: %1$s</string>
@@ -695,7 +695,7 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="shizuku_log_level_error">오류</string>
     <string name="shizuku_log_search_hint">로그 검색</string>
 <!-- Umount Service -->
-    <string name="settings_umount_service">Umount Service</string>
+    <string name="settings_umount_service">마운트 해제 서비스</string>
     <string name="settings_umount_service_summary">부팅 시 자동으로 마운트 해제할 마운트 지점을 구성합니다.</string>
     <string name="umount_config_title">Umount 구성</string>
     <string name="umount_config_enabled">Umount 활성화</string>
@@ -771,7 +771,7 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="settings_crop_dialog_title">배경화면 자르기</string>
     <string name="settings_crop_dialog_message">이미지를 자르시겠습니까?</string>
     <string name="settings_crop_dialog_crop">예</string>
-    <string name="settings_crop_dialog_direct">아니오</string>
+    <string name="settings_crop_dialog_direct">아니요</string>
     <string name="settings_background_selected">배경 선택됨</string>
     <string name="settings_background_image_cleared">배경 이미지 삭제됨</string>
     <string name="settings_clear_background">배경 지우기</string>
@@ -1004,7 +1004,7 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="nav_icon_select_image">이미지 선택</string>
     <string name="nav_icon_clear">기본값으로 초기화</string>
     <string name="nav_icon_custom_selected">사용자 정의</string>
-    <string name="nav_icon_default">기본값</string>
+    <string name="nav_icon_default">기본</string>
     <string name="nav_icon_cleared">아이콘이 기본값으로 초기화됨</string>
     <string name="nav_icon_set">아이콘 업데이트됨</string>
     <string name="nav_icon_set_failed">아이콘 저장 실패</string>
@@ -1054,7 +1054,7 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="settings_music_auto_play_summary">앱이 열리면 음악을 자동으로 재생합니다.</string>
     <string name="settings_music_looping">반복 재생</string>
     <string name="settings_music_looping_summary">현재 곡을 반복 재생합니다.</string>
-    <string name="settings_music_volume">음량</string>
+    <string name="settings_music_volume">볼륨</string>
     <string name="settings_music_saved">음악 파일 저장됨</string>
     <string name="settings_music_save_error">음악 파일 저장 실패</string>
     <string name="settings_music_cleared">음악 삭제됨</string>
@@ -1141,8 +1141,8 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="home_info_device_slot">기기 슬롯</string>
     <string name="home_info_device_model">기기 모델</string>
     <string name="home_info_running_mode">실행 모드</string>
-    <string name="home_info_mode_full">Full</string>
-    <string name="home_info_mode_half">Half</string>
+    <string name="home_info_mode_full">풀</string>
+    <string name="home_info_mode_half">하프</string>
     <string name="home_zygisk_implement">Zygisk 구현</string>
     <string name="home_mount_implement">마운트 구현</string>
 
@@ -1152,12 +1152,12 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="settings_list_info_show_icons_summary">정보 카드의 각 항목 옆에 아이콘 표시</string>
     <string name="settings_custom_badge_text">사용자 지정 배지 텍스트</string>
     <string name="settings_custom_badge_text_summary">배지의 텍스트 표시를 재미로 수정합니다.</string>
-    <string name="settings_custom_badge_text_full_half">Full/Half (기본값)</string>
+    <string name="settings_custom_badge_text_full_half">풀/하프 (기본값)</string>
     <string name="settings_custom_badge_text_lkm">LKM</string>
     <string name="settings_custom_badge_text_gki">GKI</string>
     <string name="settings_custom_badge_text_n_gki">N-GKI</string>
     <string name="settings_custom_badge_text_oki">OKI</string>
-    <string name="settings_custom_badge_text_built_in">Built-in</string>
+    <string name="settings_custom_badge_text_built_in">내장</string>
 
     <!-- Install Mode Select -->
     <string name="kp_install_methods">KernelPatch 패치/설치</string>
@@ -1198,22 +1198,22 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="badge_superuser">Superuser 배지 표시</string>
     <string name="badge_apm">시스템 모듈 배지 표시</string>
     <string name="badge_kernel">커널 모듈 배지 표시</string>
-    <string name="settings_sound_effect">음향 효과</string>
-    <string name="settings_sound_effect_summary">터치 시 음향 효과를 재생합니다.</string>
-    <string name="settings_sound_effect_enabled">활성화됨</string>
+    <string name="settings_sound_effect">효과음</string>
+    <string name="settings_sound_effect_summary">클릭 시 효과음 재생</string>
+    <string name="settings_sound_effect_enabled">사용됨</string>
     <string name="settings_sound_effect_playing">선택됨: %s</string>
     <string name="settings_sound_effect_source">음원</string>
     <string name="settings_sound_effect_source_local">로컬 파일</string>
     <string name="settings_sound_effect_source_preset">프리셋</string>
     <string name="settings_sound_effect_preset_title">프리셋 음향</string>
-    <string name="settings_select_sound_effect">음향 효과 선택</string>
-    <string name="settings_sound_effect_selected">음향 효과 파일 선택됨</string>
-    <string name="settings_sound_effect_scope">효과 범위</string>
+    <string name="settings_select_sound_effect">효과음 선택</string>
+    <string name="settings_sound_effect_selected">효과음 파일이 선택되었습니다</string>
+    <string name="settings_sound_effect_scope">적용 범위</string>
     <string name="settings_sound_effect_scope_global">전역 (어디서나)</string>
     <string name="settings_sound_effect_scope_bottom_bar">하단 바만</string>
-    <string name="settings_clear_sound_effect">음향 효과 지우기</string>
-    <string name="settings_clear_sound_effect_confirm">음향 효과를 지울까요?</string>
-    <string name="settings_sound_effect_cleared">음향 효과 삭제됨</string>
+    <string name="settings_clear_sound_effect">효과음 지우기</string>
+    <string name="settings_clear_sound_effect_confirm">효과음을 지우시겠습니까?</string>
+    <string name="settings_sound_effect_cleared">효과음이 지워졌습니다</string>
 
     <string name="settings_startup_sound">시작 음향</string>
     <string name="settings_startup_sound_summary">앱이 시작될 때 음향을 재생합니다.</string>
@@ -1267,14 +1267,14 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="script_library_add_title">스크립트 추가</string>
     <string name="script_library_select_file">스크립트 파일 선택</string>
     <string name="script_library_alias">별칭</string>
-    <string name="script_library_alias_hint">스크립트 별칭을 입력하세요. (선택사항)</string>
+    <string name="script_library_alias_hint">스크립트 별칭 입력 (선택 사항)</string>
     <string name="script_library_run">실행</string>
     <string name="script_library_delete">삭제</string>
     <string name="script_library_path">경로: %s</string>
     <string name="script_library_confirm_delete">스크립트를 삭제할까요?</string>
     <string name="script_library_delete_success">스크립트 삭제됨</string>
     <string name="script_library_delete_failed">스크립트 삭제 실패</string>
-    <string name="script_library_add_success">스크립트 추가됨</string>
+    <string name="script_library_add_success">스크립트가 추가되었습니다</string>
     <string name="script_library_add_failed">스크립트 추가 실패: %s</string>
     <string name="script_library_load_failed">스크립트 라이브러리 로드 실패</string>
     <string name="script_library_output">실행 출력</string>
@@ -1284,8 +1284,8 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="script_library_log_save_failed">로그 저장 실패: %s</string>
     <string name="settings_predictive_back">예측 백 제스처</string>
     <string name="settings_predictive_back_summary">Android 14+ 예측 백 제스처 애니메이션 활성화</string>
-    <string name="settings_expressive_motion">표현형 모션</string>
-    <string name="settings_expressive_motion_summary">Material 3 Expressive 모션 곡선을 사용합니다</string>
+    <string name="settings_expressive_motion">익스프레시브 모션</string>
+    <string name="settings_expressive_motion_summary">Material 3 Expressive 모션 커브를 사용합니다</string>
 
     <string name="home_device_status_battery_charging">충전 중</string>
     <string name="home_device_status_cpu_temp">CPU 온도</string>
@@ -1367,7 +1367,7 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <!-- Color Style -->
     <string name="color_style_label">색상 스타일</string>
     <string name="color_style_tonal_spot">토널 스팟</string>
-    <string name="color_style_vibrant">선명한</string>
+    <string name="color_style_vibrant">비비드</string>
     <string name="color_style_content">콘텐츠</string>
     <string name="color_style_expressive">표현적</string>
     <string name="color_style_rainbow">무지개</string>
@@ -1426,7 +1426,7 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="settings_jailbreak_mode_summary">순정 커널에 KernelPatch 모듈을 로드합니다. 이 모드에서는 패치가 허용되지 않습니다.</string>
     <string name="settings_jailbreak_soft_reboot">소프트 리부팅</string>
     <string name="settings_jailbreak_soft_reboot_message">모듈이 로드되었습니다. 지금 시스템을 재부팅할까요?</string>
-    <string name="settings_jailbreak_restart_framework">프레임워크 다시 시작</string>
+    <string name="settings_jailbreak_restart_framework">프레임워크 재시작</string>
     <string name="settings_jailbreak_restart_framework_message">모듈이 로드되었습니다. 지금 Android 프레임워크를 다시 시작할까요? 이 작업은 기기를 소프트 리부팅합니다(프레임워크만 다시 시작하며 커널은 다시 시작하지 않음).</string>
     <string name="settings_jailbreak_loaded">탈옥 모듈 로드됨</string>
     <string name="settings_jailbreak_failed">탈옥 모듈을 로드하지 못했습니다</string>
@@ -1435,8 +1435,8 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="jailbreak_triggered">탈옥이 시작되었습니다. 루트 권한을 기다린 후 소프트 리부팅하세요.</string>
     <string name="reboot_soft">소프트 리부팅</string>
     <string name="kpm_installed">설치됨</string>
-    <string name="kpm_disabled">사용 중지됨 (재부팅 후 적용)</string>
-    <string name="kpm_embedded_unload_invalid">임베드된 KPM은 언로드할 수 없으며 재부팅 후에도 활성 상태로 유지됩니다.</string>
+    <string name="kpm_disabled">비활성화됨 (재부팅 후 적용)</string>
+    <string name="kpm_embedded_unload_invalid">내장 KPM은 언로드할 수 없으며, 재부팅 후에도 활성 상태로 유지됩니다.</string>
     <string name="settings_faq">자주 묻는 질문</string>
     <string name="settings_bug_feedback">버그 신고</string>
     <string name="settings_clear_cache">캐시 지우기</string>
@@ -1466,4 +1466,44 @@ KernelPatch는 boot 이미지를 패치해야 합니다.
     <string name="wallpaper_preview">미리보기</string>
     <string name="wallpaper_set_background">배경으로 설정</string>
     <string name="wallpaper_background_set">배경 업데이트됨</string>
+    <string name="dont_show_again">다시 표시하지 않기</string>
+    <string name="got_it">확인</string>
+    <string name="backup_failed">백업 실패: %s</string>
+    <string name="delete_failed">삭제 실패: %s</string>
+    <string name="delete_success">삭제 성공</string>
+    <string name="delete_remote_backup_confirm">클라우드 백업을 삭제하시겠습니까?</string>
+    <string name="restore_failed">복원 실패: %s</string>
+    <string name="settings_auto_backup">자동 백업</string>
+    <string name="settings_auto_backup_summary">하루에 한 번 자동으로 백업합니다</string>
+    <string name="settings_backup_now">지금 백업</string>
+    <string name="settings_backup_password">백업 비밀번호</string>
+    <string name="settings_backup_password_hint">백업 비밀번호 입력</string>
+    <string name="settings_delete_remote_backup">클라우드 백업 삭제</string>
+    <string name="settings_encrypt_backup">백업 암호화</string>
+    <string name="settings_encrypt_backup_summary">비밀번호로 백업 파일을 암호화합니다</string>
+    <string name="settings_restore_backup">백업 복원</string>
+    <string name="settings_test_webdav">WebDAV 연결 테스트</string>
+    <string name="settings_webdav_password">WebDAV 비밀번호</string>
+    <string name="settings_webdav_username">WebDAV 사용자 이름</string>
+    <string name="msg_selinux_enforcing_confirm">Enforcing 모드로 전환할까요? SELinux가 모든 접근 규칙을 완전히 적용하고 허가되지 않은 접근 시도를 거부합니다.</string>
+    <string name="msg_selinux_permissive_warning">Permissive 모드로 전환하면 SELinux 강제 적용이 비활성화됩니다. 위반 사항이 거부되지 않고 기록만 되므로 보안이 약해집니다. 계속할까요?</string>
+    <string name="settings_show_disable_all_modules">“모든 모듈 비활성화” 버튼 표시</string>
+    <string name="settings_show_disable_all_modules_summary">모듈 페이지에서 모든 모듈을 한 번에 비활성화하는 버튼을 표시합니다</string>
+    <string name="shizuku_manage_apps">허용된 앱 관리</string>
+    <string name="theme_download">다운로드</string>
+    <string name="theme_install">설치</string>
+    <string name="theme_install_failed">설치 실패</string>
+    <string name="theme_install_success">설치 성공</string>
+    <string name="focus_card_background_title">카드 배경화면</string>
+    <string name="focus_card_background_clear">카드 배경화면 지우기</string>
+    <string name="focus_card_background_clear_confirm">이 카드의 배경화면을 지우시겠습니까?</string>
+    <string name="focus_card_background_cleared">카드 배경화면이 지워졌습니다</string>
+    <string name="focus_card_background_error">카드 배경화면 저장 실패</string>
+    <string name="focus_card_background_saved">카드 배경화면이 저장되었습니다</string>
+    <string name="focus_card_permission_required">배경화면을 선택하려면 저장소 권한을 허용해 주세요</string>
+    <string name="reboot_download_confirm">Download 모드로 재부팅할까요? 기기가 펌웨어 플래싱 화면으로 부팅됩니다.</string>
+    <string name="reboot_edl_confirm">EDL(긴급 다운로드) 모드로 재부팅할까요? 화면이 검게 유지되며 딥 플래시 도구로만 복구할 수 있습니다.</string>
+        <string name="app_title_superroot">SuperRoot</string>
+        <string name="path_hide_paths_placeholder">/storage/emulated/0/file.txt\n/storage/emulated/0/folder</string>
+        <string name="settings_webdav_url">WebDAV URL</string>
 </resources>

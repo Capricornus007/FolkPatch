@@ -85,11 +85,11 @@
     <string name="settings_clear_super_key_dialog">确定要继续吗？</string>
     <string name="settings_sucompat">旧版 su 兼容</string>
     <string name="settings_sucompat_summary">启用旧版su兼容(适用于su不生效)</string>
-    <string name="settings_selinux_hide">隐藏Selinux修改(测试)</string>
-    <string name="settings_selinux_hide_summary">隐藏selinux的修改防止被用户进程探测到(该功能可能不稳定)。安全模式可禁用生效。</string>
+    <string name="settings_selinux_hide">隐藏 SELinux 修改（测试）</string>
+    <string name="settings_selinux_hide_summary">隐藏 SELinux 变更，避免被用户进程检测到（此功能可能不稳定）。安全模式会停用此功能。</string>
     <string name="settings_selinux_hide_warning_title">警告</string>
-    <string name="settings_selinux_hide_warning_below_5_10">该功能仅在5.10及以上内核上测试过，在5.10以下内核上可能不稳定。</string>
-    <string name="settings_selinux_hide_warning_non_gki">非GKI内核风险更大，可能导致无法开机，请确保已备份数据。</string>
+    <string name="settings_selinux_hide_warning_below_5_10">此功能仅在内核 5.10 及以上版本测试过，在更低的内核版本上可能不稳定。</string>
+    <string name="settings_selinux_hide_warning_non_gki">非 GKI 内核风险较高，可能导致无法开机。请确保数据已备份。</string>
 
     <string name="home_learn_apatch">了解 FolkPatch</string>
     <string name="home_click_to_learn_apatch">了解 FolkPatch 的功能及使用方法</string>
@@ -98,7 +98,7 @@
     <string name="settings_grid_working_card_hide_check">隐藏状态图标</string>
     <string name="settings_grid_working_card_hide_check_summary">隐藏工作卡片上的对号或警告图标</string>
     <string name="settings_grid_working_card_hide_text">隐藏状态文字</string>
-    <string name="settings_grid_working_card_hide_text_summary">隐藏工作卡片上的"工作中"或"未安装"文字</string>
+    <string name="settings_grid_working_card_hide_text_summary">隐藏工作卡片上的「运行中」或「未安装」文字</string>
     <string name="settings_grid_working_card_hide_mode">隐藏工作模式</string>
     <string name="settings_grid_working_card_hide_mode_summary">隐藏工作卡片上的"Full"或"Half"文字</string>
 
@@ -149,11 +149,11 @@
 
     <string name="patch_title">修补</string>
 
-    <string name="patch_config_title">补丁</string>
+    <string name="patch_config_title">修补配置</string>
     <string name="patch_mode_bootimg_patch">模式：修补</string>
     <string name="patch_mode_patch_and_install">模式：修补并安装</string>
     <string name="patch_mode_install_to_next_slot">模式：安装到未激活槽位 (OTA 后)</string>
-    <string name="patch_mode_restore">模式：恢复</string>
+    <string name="patch_mode_restore">模式：还原</string>
     <string name="patch_mode_uninstall_patch">模式：卸载 KPatch</string>
     <string name="patch_select_bootimg_btn">选择镜像</string>
     <string name="patch_embed_kpm_btn">嵌入 KPM</string>
@@ -161,13 +161,13 @@
     <string name="patch_start_unpatch_btn">还原</string>
     <string name="patch_item_error">!!错误!!</string>
     <string name="patch_item_bootimg">bootimg</string>
-    <string name="patch_item_bootimg_slot">槽位:</string>
+    <string name="patch_item_bootimg_slot">槽位：</string>
     <string name="patch_item_bootimg_dev">设备:</string>
     <string name="patch_item_kernel">内核</string>
     <string name="patch_item_kpimg">kpimg</string>
     <string name="patch_item_kpimg_version">版本:</string>
     <string name="patch_item_kpimg_comile_time">时间:</string>
-    <string name="patch_item_kpimg_config">配置:</string>
+    <string name="patch_item_kpimg_config">配置：</string>
     <string name="patch_item_new_extra_kpm">嵌入新模块</string>
     <string name="patch_item_existed_extra_kpm">已存在</string>
     <string name="patch_item_extra_name">名称:</string>
@@ -175,7 +175,7 @@
     <string name="patch_item_extra_author">作者:</string>
     <string name="patch_item_extra_kpm_license">许可:</string>
     <string name="patch_item_extra_kpm_desciption">描述:</string>
-    <string name="patch_item_extra_args">参数:</string>
+    <string name="patch_item_extra_args">参数：</string>
     <string name="patch_item_extra_event">事件:</string>
     <string name="patch_item_skey">超级密钥</string>
     <string name="patch_custom_superkey">自定义超级密钥</string>
@@ -202,8 +202,8 @@
     <string name="settings_selinux_current_mode">当前: %s</string>
     <string name="settings_selinux_mode_enforcing_summary">SELinux 完全强制执行访问规则</string>
     <string name="settings_selinux_mode_permissive_summary">SELinux 仅记录违规操作,不会拒绝</string>
-    <string name="msg_selinux_permissive_warning">切换为宽容模式将关闭SELinux强制拦截，权限违规行为仅记录日志而不会直接拒绝，设备安全性会下降，是否继续？</string>
-    <string name="msg_selinux_enforcing_confirm">切换为强制模式？SELinux将启用完整权限管控，拦截所有未授权访问行为。</string>
+    <string name="msg_selinux_permissive_warning">切换到宽容模式将停用 SELinux 强制执行，访问违规只会被记录而不会被拒绝，安全性会降低。要继续吗？</string>
+    <string name="msg_selinux_enforcing_confirm">切换到强制模式？SELinux 将完整执行所有访问规则，并拒绝未授权的访问尝试。</string>
 
     <string name="home_device_info">设备</string>
     <string name="home_system_version">系统版本</string>
@@ -219,8 +219,8 @@
     <string name="kpm_embed">嵌入</string>
     <string name="kpm_embedded">已嵌入</string>
     <string name="kpm_installed">已安装</string>
-    <string name="kpm_disabled">已禁用（重启后生效）</string>
-    <string name="kpm_embedded_unload_invalid">嵌入的 KPM 无法卸载；重启后仍会保持生效。</string>
+    <string name="kpm_disabled">已停用（重启后生效）</string>
+    <string name="kpm_embedded_unload_invalid">内置 KPM 无法卸载，重启后仍会保持启用。</string>
     <string name="kpm_loaded">已加载</string>
     <string name="kpm_load_toast_succ">加载成功</string>
     <string name="kpm_install_toast_succ">安装成功，重启后生效</string>
@@ -234,7 +234,7 @@
     <string name="kpm_version">版本</string>
     <string name="kpm_license">许可</string>
     <string name="kpm_author">作者</string>
-    <string name="kpm_desc">描述</string>
+    <string name="kpm_desc">简介</string>
     <string name="kpm_args">参数</string>
 
     <string name="su_title">超级用户</string>
@@ -278,7 +278,7 @@
     <string name="apm_undo_uninstall_failed">恢复失败: %s</string>
     <string name="apm_version">版本</string>
     <string name="apm_author">作者</string>
-    <string name="apm_desc">描述</string>
+    <string name="apm_desc">简介</string>
     <string name="apm_overlay_fs_not_available">OverlayFS 被内核禁用，模块不可用！</string>
     <string name="apm_magisk_conflict">由于与 Magisk 冲突，模块不可用！</string>
     <string name="apm_mount_warning_title">重要提示</string>
@@ -347,7 +347,7 @@
     <string name="module_shortcut_icon">快捷方式图标</string>
     <string name="module_shortcut_type">快捷方式类型</string>
     <string name="module_shortcut_type_webui">WebUI</string>
-    <string name="module_shortcut_type_action">Action</string>
+    <string name="module_shortcut_type_action">操作</string>
     <string name="module_shortcut_icon_default">使用默认图标</string>
     <string name="module_shortcut_icon_select">选择图标</string>
     <string name="settings_module_sort_optimization_summary">让系统模块带有WebUI和Action的模块排在前面</string>
@@ -356,7 +356,7 @@
     <string name="settings_simple_list_bottom_bar">简约列表底栏</string>
     <string name="settings_simple_list_bottom_bar_summary">模块操作使用纯图标按钮样式，灵感来自APatch</string>
     <string name="settings_spliced_card_group">拼接卡片组</string>
-    <string name="settings_spliced_card_group_summary">模块列表使用 M3E 连续拼接卡片样式</string>
+    <string name="settings_spliced_card_group_summary">模块列表使用 M3E 连续卡片组样式</string>
     <string name="settings_show_kpm_status_badge">显示内核模块状态徽章</string>
     <string name="settings_show_kpm_status_badge_summary">在内核模块卡片上显示已嵌入/已加载状态徽章</string>
     <string name="apm_install_confirm_title">安装模块</string>
@@ -509,7 +509,7 @@ KernelPatch 需要修补 boot 镜像。
     <string name="settings_use_system_color_theme_summary">使用系统根据壁纸生成的颜色主题</string>
     <string name="settings_custom_color_theme">颜色主题</string>
 
-    <string name="amber_theme">琥珀色</string>
+    <string name="amber_theme">琥珀</string>
     <string name="blue_theme">蓝色</string>
     <string name="blue_grey_theme">蓝灰色</string>
     <string name="brown_theme">大地</string>
@@ -520,20 +520,20 @@ KernelPatch 需要修补 boot 镜像。
     <string name="indigo_theme">深海</string>
     <string name="light_blue_theme">海洋</string>
     <string name="light_green_theme">春草</string>
-    <string name="lime_theme">新叶</string>
+    <string name="lime_theme">青柠</string>
     <string name="orange_theme">晨曦</string>
     <string name="pink_theme">桃夭</string>
     <string name="purple_theme">薰衣</string>
     <string name="red_theme">烈焰</string>
     <string name="sakura_theme">樱花</string>
-    <string name="teal_theme">翡翠</string>
+    <string name="teal_theme">蓝绿</string>
     <string name="yellow_theme">金穗</string>
-    <string name="ink_wash_theme">水墨风</string>
+    <string name="ink_wash_theme">水墨</string>
 
     <string name="theme_color">主题颜色</string>
     <string name="theme_light">浅色</string>
     <string name="theme_dark">深色</string>
-    <string name="theme_system">系统</string>
+    <string name="theme_system">跟随系统</string>
 
     <string name="about_app_desc">基于 KernelPatch 的 Root 实现，无需重新编译内核的同时，允许 Hook 内核函数。</string>
     <string name="about_powered_by">由 %1$s 提供支持</string>
@@ -643,7 +643,7 @@ KernelPatch 需要修补 boot 镜像。
     <string name="settings_shizuku_start_failed">Shizuku 服务启动失败</string>
     <string name="settings_shizuku_stopped">Shizuku 服务已停止</string>
     <string name="settings_shizuku_stop_failed">Shizuku 服务停止失败</string>
-    <string name="shizuku_manage_apps">管理授权应用</string>
+    <string name="shizuku_manage_apps">管理已授权应用</string>
     <string name="shizuku_management_title">Shizuku 授权管理</string>
     <string name="shizuku_management_empty">未发现支持 Shizuku 的应用</string>
     <string name="shizuku_management_unavailable">Shizuku 服务未运行</string>
@@ -766,8 +766,8 @@ KernelPatch 需要修补 boot 镜像。
     <string name="settings_video_background_enabled">视频背景已启用</string>
     <string name="settings_video_volume">视频音量</string>
     
-    <string name="su_exclude_all_title">批量排除</string>
-    <string name="su_exclude_all_confirm">确定要将所有未授权Root的应用设为排除吗？</string>
+    <string name="su_exclude_all_title">全部排除</string>
+    <string name="su_exclude_all_confirm">确定要排除所有非 Root 应用吗？</string>
 
     <!-- 隐藏设定字符串 -->
     <string name="home_hide_su_path">隐藏 su 可执行文件路径</string>
@@ -888,11 +888,11 @@ KernelPatch 需要修补 boot 镜像。
     <!-- FocusUI卡片壁纸 -->
     <string name="focus_card_background_title">卡片壁纸</string>
     <string name="focus_card_background_clear">清除卡片壁纸</string>
-    <string name="focus_card_background_clear_confirm">确定要清除该卡片的壁纸吗？</string>
+    <string name="focus_card_background_clear_confirm">确定要清除这张卡片的壁纸吗？</string>
     <string name="focus_card_background_saved">卡片壁纸保存成功</string>
-    <string name="focus_card_background_error">卡片壁纸保存失败</string>
+    <string name="focus_card_background_error">保存卡片壁纸失败</string>
     <string name="focus_card_background_cleared">卡片壁纸已清除</string>
-    <string name="focus_card_permission_required">请先授予存储权限才能选择壁纸</string>
+    <string name="focus_card_permission_required">请授予存储权限以选择壁纸</string>
     <string name="settings_focus_card_background">FocusUI 卡片壁纸</string>
     <string name="settings_focus_card_background_enabled">FocusUI 卡片壁纸已开启，长按卡片管理壁纸</string>
     <string name="settings_focus_card_background_summary">启用 FocusUI 卡片壁纸及长按壁纸管理</string>
@@ -964,7 +964,7 @@ KernelPatch 需要修补 boot 镜像。
     <string name="update_latest">您已是最新版本</string>
     <string name="update_error">检查更新时出错</string>
     <!--折叠选项-->
-    <string name="settings_category_general">常规</string>
+    <string name="settings_category_general">通用</string>
     <string name="settings_app_list_loading_scheme">应用列表加载方案</string>
     <string name="settings_app_list_loading_scheme_summary">选择如何加载应用列表</string>
     <string name="app_list_loading_scheme_root_service">RootService (默认)</string>
@@ -1165,7 +1165,7 @@ KernelPatch 需要修补 boot 镜像。
     <string name="home_info_device_model">设备型号</string>
     <string name="home_info_running_mode">运行模式</string>
     <string name="home_info_mode_full">完整</string>
-    <string name="home_info_mode_half">不完全</string>
+    <string name="home_info_mode_half">半量</string>
     <string name="home_zygisk_implement">Zygisk 实现</string>
     <string name="home_mount_implement">挂载实现</string>
 
@@ -1215,18 +1215,18 @@ KernelPatch 需要修补 boot 镜像。
     <string name="badge_apm">显示 APM 模块角标</string>
     <string name="badge_kernel">显示内核模块角标</string>
     
-    <string name="settings_sound_effect">点击音效</string>
+    <string name="settings_sound_effect">音效</string>
     <string name="settings_sound_effect_summary">点击时播放音效</string>
     <string name="settings_sound_effect_enabled">已启用</string>
-    <string name="settings_sound_effect_playing">当前选择: %s</string>
+    <string name="settings_sound_effect_playing">已选择：%s</string>
     <string name="settings_sound_effect_source">音效来源</string>
     <string name="settings_sound_effect_source_local">本地文件</string>
     <string name="settings_sound_effect_source_preset">预设</string>
     <string name="settings_sound_effect_preset_title">预设音效</string>
-    <string name="settings_select_sound_effect">选择音效文件</string>
+    <string name="settings_select_sound_effect">选择音效</string>
     <string name="settings_sound_effect_selected">已选择音效文件</string>
     <string name="settings_sound_effect_scope">生效范围</string>
-    <string name="settings_sound_effect_scope_global">全局 (任何位置)</string>
+    <string name="settings_sound_effect_scope_global">全局（任意位置）</string>
     <string name="settings_sound_effect_scope_bottom_bar">仅底栏</string>
     <string name="settings_clear_sound_effect">清除音效</string>
     <string name="settings_clear_sound_effect_confirm">确定要清除音效吗？</string>
@@ -1296,7 +1296,7 @@ KernelPatch 需要修补 boot 镜像。
     <string name="script_library_delete_failed">删除脚本失败</string>
     <string name="script_library_add_success">脚本添加成功</string>
     <string name="script_library_add_failed">添加脚本失败：%s</string>
-    <string name="script_library_load_failed">加载脚本库失败</string>
+    <string name="script_library_load_failed">脚本库加载失败</string>
     <string name="script_library_output">执行输出</string>
     <string name="script_library_no_output">无输出</string>
     <string name="script_library_save_log">保存日志</string>
@@ -1309,7 +1309,7 @@ KernelPatch 需要修补 boot 镜像。
     <string name="settings_kernel_spoof_version">内核版本</string>
     <string name="settings_kernel_spoof_build_time">内核构建时间</string>
     <string name="settings_kernel_spoof_restore">恢复</string>
-    <string name="settings_umount_service">Umount Service</string>
+    <string name="settings_umount_service">卸载服务</string>
     <string name="settings_umount_service_summary">配置开机自动卸载的挂载点</string>
     <string name="umount_config_title">Umount 配置</string>
     <string name="umount_config_enabled">启用 Umount</string>
@@ -1323,8 +1323,8 @@ KernelPatch 需要修补 boot 镜像。
     <string name="umount_config_save_failed">配置保存失败</string>
     <string name="settings_predictive_back">预测性返回手势</string>
     <string name="settings_predictive_back_summary">启用 Android 14+ 的预测性返回手势动画</string>
-    <string name="settings_expressive_motion">实验性动效</string>
-    <string name="settings_expressive_motion_summary">使用 Material 3 Expressive 的运动曲线</string>
+    <string name="settings_expressive_motion">生动动效</string>
+    <string name="settings_expressive_motion_summary">使用 Material 3 Expressive 动效曲线</string>
 
     <string name="home_device_status_battery_charging">充电中</string>
     <string name="home_device_status_cpu_temp">CPU 温度</string>
@@ -1401,7 +1401,7 @@ KernelPatch 需要修补 boot 镜像。
     <!-- 色彩风格 -->
     <string name="color_style_label">色彩风格</string>
     <string name="color_style_tonal_spot">色调</string>
-    <string name="color_style_vibrant">活力</string>
+    <string name="color_style_vibrant">鲜明</string>
     <string name="color_style_content">内容</string>
     <string name="color_style_expressive">表现</string>
     <string name="color_style_rainbow">彩虹</string>
@@ -1443,7 +1443,7 @@ KernelPatch 需要修补 boot 镜像。
     <string name="wallpaper_layout_stack">堆叠</string>
     <string name="wallpaper_device_mixed">融合</string>
     <string name="wallpaper_display_options">展示方案</string>
-    <string name="wallpaper_display_layout">展示方式</string>
+    <string name="wallpaper_display_layout">布局</string>
     <string name="wallpaper_download">下载</string>
     <string name="wallpaper_cancel">取消</string>
     <string name="wallpaper_saved">已保存</string>
@@ -1454,4 +1454,51 @@ KernelPatch 需要修补 boot 镜像。
     <string name="wallpaper_preview">预览</string>
     <string name="wallpaper_set_background">设为背景</string>
     <string name="wallpaper_background_set">背景已更新</string>
+    <string name="dont_show_again">不再显示</string>
+    <string name="got_it">知道了</string>
+    <string name="backup_failed">备份失败：%s</string>
+    <string name="delete_failed">删除失败：%s</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_remote_backup_confirm">确定要删除云端备份吗？</string>
+    <string name="restore_failed">还原失败：%s</string>
+    <string name="settings_auto_backup">自动备份</string>
+    <string name="settings_auto_backup_summary">每天自动备份一次</string>
+    <string name="settings_backup_now">立即备份</string>
+    <string name="settings_backup_password">备份密码</string>
+    <string name="settings_backup_password_hint">输入备份密码</string>
+    <string name="settings_delete_remote_backup">删除云端备份</string>
+    <string name="settings_encrypt_backup">加密备份</string>
+    <string name="settings_encrypt_backup_summary">使用密码加密备份文件</string>
+    <string name="settings_restore_backup">还原备份</string>
+    <string name="settings_test_webdav">测试 WebDAV 连接</string>
+    <string name="settings_webdav_password">WebDAV 密码</string>
+    <string name="settings_webdav_username">WebDAV 用户名</string>
+    <string name="settings_show_disable_all_modules">显示「停用所有模块」按钮</string>
+    <string name="settings_show_disable_all_modules_summary">在模块页面显示一键停用所有模块的按钮</string>
+    <string name="theme_download">下载</string>
+    <string name="theme_install">安装</string>
+    <string name="theme_install_failed">安装失败</string>
+    <string name="theme_install_success">安装成功</string>
+    <string name="settings_custom_badge_text_built_in">内置</string>
+    <string name="settings_custom_badge_text_full_half">完整/半量（默认）</string>
+    <string name="reboot_download_confirm">要重启进入 Download 模式吗？设备将进入固件刷写界面。</string>
+    <string name="reboot_edl_confirm">要重启进入 EDL（紧急下载）模式吗？屏幕将保持黑屏，只能用深度刷机工具恢复。</string>
+        <string name="app_title_apatch">APatch</string>
+        <string name="app_title_apatch_folk">APatch Folk</string>
+        <string name="app_title_apatchx">APatch X</string>
+        <string name="app_title_folkpatch">FolkPatch</string>
+        <string name="app_title_fpatch">FPatch</string>
+        <string name="app_title_kernelpatch">KernelPatch</string>
+        <string name="app_title_kernelsu">KernelSU</string>
+        <string name="app_title_magicpatch">MagicPatch</string>
+        <string name="app_title_superpatch">SuperPatch</string>
+        <string name="app_title_superroot">SuperRoot</string>
+        <string name="app_title_supersu">SuperSU</string>
+        <string name="app_title_superuser">Superuser</string>
+        <string name="path_hide_paths_placeholder">/storage/emulated/0/file.txt\n/storage/emulated/0/folder</string>
+        <string name="settings_custom_badge_text_gki">GKI</string>
+        <string name="settings_custom_badge_text_lkm">LKM</string>
+        <string name="settings_custom_badge_text_n_gki">N-GKI</string>
+        <string name="settings_custom_badge_text_oki">OKI</string>
+        <string name="settings_webdav_url">WebDAV URL</string>
 </resources>

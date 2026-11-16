@@ -19,13 +19,13 @@
 
     <string name="desktop_app_name">出生点名牌</string>
 
-    <string name="home">主世界</string>
+    <string name="home">首页</string>
 
     <string name="success">成就已解锁！</string>
     <string name="failure">你死了！游戏结束！</string>
 
     <string name="patch_warnning">合成与锻造有风险，请确保已备份存档到末影箱！</string>
-    <string name="patch">锻造</string>
+    <string name="patch">修补</string>
 
     <string name="kernel_patch">基岩核心补丁</string>
     <string name="android_patch">红石系统补丁</string>
@@ -86,11 +86,11 @@
     <string name="settings_clear_super_key_dialog">你确定吗？这操作比扔末影珍珠还刺激，不可逆的！</string>
     <string name="settings_sucompat">旧版 OP 兼容</string>
     <string name="settings_sucompat_summary">启用 path_probe 探路钩，兼容旧版 OP 指令</string>
-    <string name="settings_selinux_hide">隐藏游戏规则修改（测试）</string>
-    <string name="settings_selinux_hide_summary">把规则改动藏起来，不让玩家进程发现（这功能可能不稳）。安全模式会关掉它。</string>
+    <string name="settings_selinux_hide">隐藏 SELinux 修改（测试）</string>
+    <string name="settings_selinux_hide_summary">隐藏 SELinux 变更，避免被用户进程检测到（此功能可能不稳定）。安全模式会停用此功能。</string>
     <string name="settings_selinux_hide_warning_title">警告</string>
-    <string name="settings_selinux_hide_warning_below_5_10">这功能只在5.10及以上的服务器测过，旧服务器可能不稳。</string>
-    <string name="settings_selinux_hide_warning_non_gki">非GKI服务器风险更大，可能导致服务器崩溃，记得先备份存档。</string>
+    <string name="settings_selinux_hide_warning_below_5_10">此功能仅在内核 5.10 及以上版本测试过，在更低的内核版本上可能不稳定。</string>
+    <string name="settings_selinux_hide_warning_non_gki">非 GKI 内核风险较高，可能导致无法开机。请确保数据已备份。</string>
 
     <string name="home_learn_apatch">探索 FolkPatch 这片大陆</string>
     <string name="home_click_to_learn_apatch">看看 FolkPatch 能在你的世界里搞出什么花样</string>
@@ -140,20 +140,20 @@
     <string name="kpatch_shadow_path_title">kpatch</string>
     <string name="home_auth_key_title">输入OP密钥</string>
     <string name="home_auth_key_desc">验证OP身份后才能拿到创造模式的权限</string>
-    <string name="home_kpatch_info_title">世界情报</string>
+    <string name="home_kpatch_info_title">信息</string>
 
     <string name="home_ap_cando_install">装一下</string>
 
     <string name="home_ap_cando_uninstall">卸掉模组</string>
     <string name="home_ap_cando_reboot">重生一下</string>
 
-    <string name="patch_title">锻造</string>
+    <string name="patch_title">修补</string>
 
-    <string name="patch_config_title">锻造配方</string>
+    <string name="patch_config_title">修补配置</string>
     <string name="patch_mode_bootimg_patch">模式：锻造合成</string>
     <string name="patch_mode_patch_and_install">模式：锻造并安装到设备</string>
     <string name="patch_mode_install_to_next_slot">模式：安装到备用槽位（OTA后）</string>
-    <string name="patch_mode_restore">模式：从存档备份恢复</string>
+    <string name="patch_mode_restore">模式：还原</string>
     <string name="patch_mode_uninstall_patch">模式：拆除基岩补丁</string>
     <string name="patch_select_bootimg_btn">选择基岩镜像文件</string>
     <string name="patch_embed_kpm_btn">嵌入红石组件</string>
@@ -161,13 +161,13 @@
     <string name="patch_start_unpatch_btn">还原基岩原样</string>
     <string name="patch_item_error">!!合成失败：材料不足!!</string>
     <string name="patch_item_bootimg">bootimg 基岩镜像</string>
-    <string name="patch_item_bootimg_slot">槽位:</string>
+    <string name="patch_item_bootimg_slot">槽位：</string>
     <string name="patch_item_bootimg_dev">设备:</string>
-    <string name="patch_item_kernel">基岩核心</string>
+    <string name="patch_item_kernel">内核</string>
     <string name="patch_item_kpimg">kpimg 补丁文件</string>
     <string name="patch_item_kpimg_version">版本:</string>
     <string name="patch_item_kpimg_comile_time">锻造时间:</string>
-    <string name="patch_item_kpimg_config">配方:</string>
+    <string name="patch_item_kpimg_config">配置：</string>
     <string name="patch_item_new_extra_kpm">嵌入新红石组件</string>
     <string name="patch_item_existed_extra_kpm">已经嵌过了</string>
     <string name="patch_item_extra_name">名称:</string>
@@ -175,7 +175,7 @@
     <string name="patch_item_extra_author">作者:</string>
     <string name="patch_item_extra_kpm_license">许可协议:</string>
     <string name="patch_item_extra_kpm_desciption">描述:</string>
-    <string name="patch_item_extra_args">NBT参数:</string>
+    <string name="patch_item_extra_args">参数：</string>
     <string name="patch_item_extra_event">触发事件:</string>
     <string name="patch_item_skey">OP密钥</string>
     <string name="patch_custom_superkey">自定义OP密钥</string>
@@ -187,7 +187,7 @@
 
     <string name="home_kernel">基岩核心</string>
     <string name="home_manager_version">管理器版本</string>
-    <string name="home_fingerprint">世界种子</string>
+    <string name="home_fingerprint">指纹</string>
 
     <string name="home_selinux_status">游戏规则</string>
     <string name="home_selinux_status_disabled">游戏规则: 关了</string>
@@ -216,26 +216,26 @@
     <string name="kpm_install">安装红石</string>
     <string name="kpm_embed">把红石嵌进基岩</string>
     <string name="kpm_embedded">已嵌入基岩</string>
-    <string name="kpm_installed">已充能</string>
-    <string name="kpm_disabled">已断电（重启后生效）</string>
-    <string name="kpm_embedded_unload_invalid">嵌入基岩的红石组件无法拆除；重启后仍会保持。</string>
+    <string name="kpm_installed">已安装</string>
+    <string name="kpm_disabled">已停用（重启后生效）</string>
+    <string name="kpm_embedded_unload_invalid">内置 KPM 无法卸载，重启后仍会保持启用。</string>
     <string name="kpm_loaded">已充能</string>
     <string name="kpm_load_toast_succ">红石充能成功！亮了！</string>
-    <string name="kpm_install_toast_succ">方块放置成功！重启后生效！</string>
+    <string name="kpm_install_toast_succ">安装成功，重启后生效</string>
     <string name="kpm_load_toast_failed">红石充能失败…没反应</string>
     <string name="kpm_unload_confirm">把 %s 红石组件拆了？</string>
     <string name="kpm_unload">拆除红石</string>
-    <string name="kpm_control">红石信号控制台</string>
+    <string name="kpm_control">控制</string>
     <string name="kpm_apm_empty">红石组件栏空空如也</string>
     <string name="kpm_custom_order">切换自定义红石组件顺序</string>
     <string name="kpm_load_failed">加载红石核心失败</string>
     <string name="kpm_version">版本</string>
     <string name="kpm_license">许可协议</string>
     <string name="kpm_author">制作者</string>
-    <string name="kpm_desc">物品描述</string>
-    <string name="kpm_args">NBT参数</string>
+    <string name="kpm_desc">简介</string>
+    <string name="kpm_args">参数</string>
 
-    <string name="su_title">OP权限</string>
+    <string name="su_title">超级用户</string>
     <string name="su_selinux_via_hook">通过红石信号绕过游戏规则</string>
     <string name="su_pkg_excluded_label">已屏蔽</string>
     <string name="su_batch_exclude_title">批量拉黑</string>
@@ -244,7 +244,7 @@
     <string name="su_exclude_reverse_btn">解除屏蔽</string>
     <string name="su_pkg_excluded_setting_title">屏蔽修改</string>
     <string name="su_pkg_excluded_setting_summary">启用后，FolkPatch 会恢复此应用被模组篡改过的文件</string>
-    <string name="su_pkg_root_setting_title">授予OP权限</string>
+    <string name="su_pkg_root_setting_title">超级用户</string>
     <string name="su_pkg_root_setting_summary">给应用发个OP，让它能跑管理员指令</string>
     <string name="su_pkg_normal_setting_title">生存模式</string>
     <string name="su_pkg_normal_setting_summary">不给OP，让它在生存模式里自生自灭吧</string>
@@ -276,14 +276,14 @@
     <string name="apm_undo_uninstall_failed">从虚空捡不回来: %s</string>
     <string name="apm_version">版本</string>
     <string name="apm_author">制作者</string>
-    <string name="apm_desc">物品描述</string>
+    <string name="apm_desc">简介</string>
     <string name="apm_overlay_fs_not_available">OverlayFS被基岩核心锁死了，模组全挂了！</string>
     <string name="apm_magisk_conflict">Magisk模组跟咱的打架呢，模组全挂了！</string>
     <string name="apm_mount_warning_title">注意了！</string>
     <string name="apm_mount_warning_message">默认不挂载模组，想用的话得开内置挂载系统或者装个元模组</string>
     <string name="apm_mount_warning_button">明白了</string>
     <string name="apm_reboot_to_apply">重生一下，模组就生效了</string>
-    <string name="apm_changelog">模组更新日志</string>
+    <string name="apm_changelog">更新日志</string>
     <string name="apm_update">升级模组版本</string>
     <string name="apm_downloading">正在从远方搬运模组: %s</string>
     <string name="apm_start_downloading">开始搬运: %s</string>
@@ -311,7 +311,7 @@
     <string name="module_shortcut_icon">快捷栏图标</string>
     <string name="module_shortcut_type">快捷栏类型</string>
     <string name="module_shortcut_type_webui">WebUI</string>
-    <string name="module_shortcut_type_action">Action</string>
+    <string name="module_shortcut_type_action">操作</string>
     <string name="module_shortcut_icon_default">使用默认图标</string>
     <string name="module_shortcut_icon_select">选择图标</string>
     <string name="enable_web_debugging">启用 WebView 调试</string>
@@ -351,8 +351,8 @@
     <string name="settings_fold_system_module_summary">点模组卡片来展开/收起操作按钮</string>
     <string name="settings_simple_list_bottom_bar">简约模组底栏</string>
     <string name="settings_simple_list_bottom_bar_summary">模组操作只用纯图标按钮，跟APatch学的</string>
-    <string name="settings_spliced_card_group">拼接模组卡片</string>
-    <string name="settings_spliced_card_group_summary">模组列表用连续拼接卡片样式</string>
+    <string name="settings_spliced_card_group">拼接卡片组</string>
+    <string name="settings_spliced_card_group_summary">模块列表使用 M3E 连续卡片组样式</string>
     <string name="settings_show_kpm_status_badge">显示红石组件状态徽章</string>
     <string name="settings_show_kpm_status_badge_summary">在红石组件卡片上显示已嵌入基岩/已充能状态徽章</string>
     <string name="apm_install_confirm_title">确认安装模组</string>
@@ -449,7 +449,7 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="home_more_menu_music_pause">暂停红石音乐</string>
 
     <!-- Plugin strings -->
-    <string name="plugin_title">红石插件</string>
+    <string name="plugin_title">插件</string>
     <string name="plugin_refresh">刷新</string>
     <string name="plugin_summary_title">APD Lua Plugin</string>
     <string name="plugin_summary_not_installed">APD 未安装 · 插件不可用</string>
@@ -506,7 +506,7 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="settings_use_system_color_theme_summary">使用系统根据壁纸生成的颜色</string>
     <string name="settings_custom_color_theme">自定义颜色主题</string>
 
-    <string name="amber_theme">烛光琥珀</string>
+    <string name="amber_theme">琥珀</string>
     <string name="blue_theme">青金石蓝</string>
     <string name="blue_grey_theme">蓝冰灰</string>
     <string name="brown_theme">泥土棕</string>
@@ -517,19 +517,19 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="indigo_theme">靛蓝染料</string>
     <string name="light_blue_theme">淡蓝色染料</string>
     <string name="light_green_theme">荧光墨囊绿</string>
-    <string name="lime_theme">史莱姆绿</string>
+    <string name="lime_theme">青柠</string>
     <string name="orange_theme">橙色染料</string>
     <string name="pink_theme">粉红色染料</string>
     <string name="purple_theme">紫色染料</string>
     <string name="red_theme">红石粉红</string>
-    <string name="sakura_theme">樱花染料</string>
-    <string name="teal_theme">青绿色染料</string>
+    <string name="sakura_theme">樱花</string>
+    <string name="teal_theme">蓝绿</string>
     <string name="yellow_theme">蒲公英黄</string>
-    <string name="ink_wash_theme">墨囊水墨</string>
+    <string name="ink_wash_theme">水墨</string>
     <string name="theme_color">主题颜色</string>
     <string name="theme_light">浅色</string>
     <string name="theme_dark">深色</string>
-    <string name="theme_system">系统</string>
+    <string name="theme_system">跟随系统</string>
     <string name="loading_modules">正在获取模块…</string>
     <string name="loading_scripts">正在查找脚本…</string>
     <string name="loading_themes">正在加载主题…</string>
@@ -756,8 +756,8 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="settings_video_background_enabled">视频背景已启用</string>
     <string name="settings_video_volume">视频音量</string>
 
-    <string name="su_exclude_all_title">批量屏蔽</string>
-    <string name="su_exclude_all_confirm">确定要将所有未授权OP的应用设为屏蔽吗？</string>
+    <string name="su_exclude_all_title">全部排除</string>
+    <string name="su_exclude_all_confirm">确定要排除所有非 Root 应用吗？</string>
 
     <!-- 隐藏设定 -->
     <string name="home_hide_su_path">藏起OP指令位置</string>
@@ -851,7 +851,7 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="theme_name">资源包名称</string>
     <string name="theme_type">适用平台</string>
     <string name="theme_type_phone">手机版（Java版）</string>
-    <string name="theme_type_tablet">平板版（基岩版）</string>
+    <string name="theme_type_tablet">平板</string>
     <string name="theme_version">版本</string>
     <string name="theme_author">作者</string>
     <string name="theme_description">描述</string>
@@ -878,11 +878,11 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <!-- FocusUI卡片壁纸 -->
     <string name="focus_card_background_title">卡片壁纸</string>
     <string name="focus_card_background_clear">清除卡片壁纸</string>
-    <string name="focus_card_background_clear_confirm">确定要清除该卡片的壁纸吗？</string>
+    <string name="focus_card_background_clear_confirm">确定要清除这张卡片的壁纸吗？</string>
     <string name="focus_card_background_saved">卡片壁纸保存成功</string>
-    <string name="focus_card_background_error">卡片壁纸保存失败</string>
+    <string name="focus_card_background_error">保存卡片壁纸失败</string>
     <string name="focus_card_background_cleared">卡片壁纸已清除</string>
-    <string name="focus_card_permission_required">请先授予存储权限才能选择壁纸</string>
+    <string name="focus_card_permission_required">请授予存储权限以选择壁纸</string>
     <string name="settings_focus_card_background">FocusUI 卡片壁纸</string>
     <string name="settings_focus_card_background_enabled">FocusUI 卡片壁纸已开启，长按卡片管理壁纸</string>
     <string name="settings_focus_card_background_summary">启用 FocusUI 卡片壁纸及长按壁纸管理</string>
@@ -937,8 +937,8 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="theme_store_author">作者: %s</string>
     <string name="theme_store_version">版本: %s</string>
     <string name="theme_source">来源</string>
-    <string name="theme_store_download_failed">搬运失败，掉进虚空了</string>
-    <string name="theme_store_download">搬运</string>
+    <string name="theme_store_download_failed">下载失败</string>
+    <string name="theme_store_download">下载</string>
     <string name="theme_store_search_hint">搜索资源包...</string>
     <string name="search_modules">搜索模组...</string>
     <string name="search_scripts">搜索数据包...</string>
@@ -954,13 +954,13 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="update_latest">已经是最新版了</string>
     <string name="update_error">检查更新炸了</string>
     <!--折叠选项-->
-    <string name="settings_category_general">游戏规则</string>
+    <string name="settings_category_general">通用</string>
     <string name="settings_app_list_loading_scheme">应用列表加载方案</string>
     <string name="settings_app_list_loading_scheme_summary">选择如何加载应用列表</string>
     <string name="app_list_loading_scheme_root_service">RootService (默认)</string>
     <string name="app_list_loading_scheme_package_manager">PackageManager (系统API)</string>
     <string name="app_list_loading_scheme_dialog_title">加载方案</string>
-    <string name="superuser">OP权限</string>
+    <string name="superuser">超级用户</string>
     <string name="module">模组</string>
     <string name="settings_category_appearance">外观皮肤</string>
     <string name="settings_category_behavior">玩家行为</string>
@@ -1073,7 +1073,7 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="settings_music_saved">唱片已保存</string>
     <string name="settings_music_save_error">保存唱片失败</string>
     <string name="settings_music_cleared">唱片已取出</string>
-    <string name="settings_category_multimedia">唱片机与音效</string>
+    <string name="settings_category_multimedia">多媒体</string>
     <string name="settings_category_general_summary">语言、更新、SELinux、服务器调整</string>
     <string name="settings_category_appearance_summary">资源包主题、颜色、布局、背景皮肤、字体</string>
     <string name="settings_category_behavior_summary">Web调试、安装行为、主世界显示</string>
@@ -1147,15 +1147,15 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="home_storage_ram">运行内存（经验槽）</string>
     <string name="home_storage_zram">ZRAM（压缩空间）</string>
     <string name="home_storage_swap">交换空间（末影箱暂存）</string>
-    <string name="home_info_kernel">基岩核心</string>
+    <string name="home_info_kernel">内核</string>
     <string name="home_info_superkey">OP密钥</string>
     <string name="home_info_auth_auth">已验证</string>
     <string name="home_info_auth_na">还没验证</string>
     <string name="home_info_device_slot">设备槽位</string>
     <string name="home_info_device_model">设备型号</string>
     <string name="home_info_running_mode">运行模式</string>
-    <string name="home_info_mode_full">创造模式</string>
-    <string name="home_info_mode_half">冒险模式</string>
+    <string name="home_info_mode_full">完整</string>
+    <string name="home_info_mode_half">半量</string>
     <string name="home_zygisk_implement">Zygisk实现</string>
     <string name="home_mount_implement">挂载实现</string>
 
@@ -1204,22 +1204,22 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="badge_apm">显示模组角标</string>
     <string name="badge_kernel">显示红石组件角标</string>
 
-    <string name="settings_sound_effect">方块交互音效</string>
-    <string name="settings_sound_effect_summary">操作时播放方块交互音效</string>
-    <string name="settings_sound_effect_enabled">方块音效已开</string>
-    <string name="settings_sound_effect_playing">当前音效: %s</string>
+    <string name="settings_sound_effect">音效</string>
+    <string name="settings_sound_effect_summary">点击时播放音效</string>
+    <string name="settings_sound_effect_enabled">已启用</string>
+    <string name="settings_sound_effect_playing">已选择：%s</string>
     <string name="settings_sound_effect_source">音效来源</string>
     <string name="settings_sound_effect_source_local">本地音效包</string>
-    <string name="settings_sound_effect_source_preset">游戏内置音效</string>
+    <string name="settings_sound_effect_source_preset">预设</string>
     <string name="settings_sound_effect_preset_title">内置音效库</string>
-    <string name="settings_select_sound_effect">选一个音效</string>
-    <string name="settings_sound_effect_selected">已选好音效</string>
+    <string name="settings_select_sound_effect">选择音效</string>
+    <string name="settings_sound_effect_selected">已选择音效文件</string>
     <string name="settings_sound_effect_scope">生效范围</string>
-    <string name="settings_sound_effect_scope_global">全局（走到哪响到哪）</string>
-    <string name="settings_sound_effect_scope_bottom_bar">仅快捷栏</string>
-    <string name="settings_clear_sound_effect">关掉方块音效</string>
-    <string name="settings_clear_sound_effect_confirm">确定关掉方块音效？</string>
-    <string name="settings_sound_effect_cleared">方块音效已关</string>
+    <string name="settings_sound_effect_scope_global">全局（任意位置）</string>
+    <string name="settings_sound_effect_scope_bottom_bar">仅底栏</string>
+    <string name="settings_clear_sound_effect">清除音效</string>
+    <string name="settings_clear_sound_effect_confirm">确定要清除音效吗？</string>
+    <string name="settings_sound_effect_cleared">音效已清除</string>
 
     <string name="settings_startup_sound">启动音效</string>
     <string name="settings_startup_sound_summary">打开应用时放一段启动音效</string>
@@ -1278,7 +1278,7 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="script_library_log_save_failed">保存日志失败：%s</string>
 
     <!-- Umount 服务 -->
-    <string name="settings_umount_service">Umount Service</string>
+    <string name="settings_umount_service">卸载服务</string>
     <string name="settings_umount_service_summary">配置重生时自动卸载的挂载点</string>
     <string name="umount_config_title">Umount 配置</string>
     <string name="umount_config_enabled">启用 Umount</string>
@@ -1292,16 +1292,16 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="umount_config_save_failed">配置保存失败</string>
     <string name="settings_predictive_back">预测性返回手势</string>
     <string name="settings_predictive_back_summary">启用 Android 14+ 的预测性返回手势动画</string>
-    <string name="settings_expressive_motion">冒險動勢</string>
-    <string name="settings_expressive_motion_summary">使用 Material 3 Expressive 的動勢曲線</string>
+    <string name="settings_expressive_motion">生动动效</string>
+    <string name="settings_expressive_motion_summary">使用 Material 3 Expressive 动效曲线</string>
 
     <string name="home_device_status_battery_charging">充电中（附魔中）</string>
     <string name="home_device_status_cpu_temp">CPU温度（熔炉温度）</string>
     <string name="home_device_status_memory_trend">内存趋势（经验变化）</string>
     <string name="home_storage_partitions">存储分区（世界分区）</string>
     <string name="home_device_status_cpu_freq">CPU频率（红石频率）</string>
-    <string name="home_network_rx">下载（收集掉落物）</string>
-    <string name="home_network_tx">上传（投掷物品）</string>
+    <string name="home_network_rx">下载</string>
+    <string name="home_network_tx">上传</string>
     <string name="settings_home_layout_stats">StatsUI</string>
     <string name="home_stats_more_options">更多选项（更多合成配方）</string>
     <string name="home_stats_kp_label">KP</string>
@@ -1375,7 +1375,7 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <!-- 色彩风格 -->
     <string name="color_style_label">色彩风格</string>
     <string name="color_style_tonal_spot">色调染色</string>
-    <string name="color_style_vibrant">鲜艳</string>
+    <string name="color_style_vibrant">鲜明</string>
     <string name="color_style_content">内容</string>
     <string name="color_style_expressive">表现力</string>
     <string name="color_style_rainbow">彩虹（彩羊毛）</string>
@@ -1398,12 +1398,12 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="settings_jailbreak_mode_summary">在原生内核上加载 KernelPatch 模组。该模式下不允许锻造修补。</string>
     <string name="settings_jailbreak_soft_reboot">快速重生</string>
     <string name="settings_jailbreak_soft_reboot_message">模组已加载，要现在快速重生吗？</string>
-    <string name="settings_jailbreak_restart_framework">快速重生框架</string>
+    <string name="settings_jailbreak_restart_framework">重启框架</string>
     <string name="settings_jailbreak_restart_framework_message">模组已加载，要现在重启 Android 框架吗？该操作将快速重生，只重生框架，不会重启内核。</string>
     <string name="settings_jailbreak_loaded">解封模组已加载</string>
     <string name="settings_jailbreak_failed">解封模组加载失败，你死了！</string>
     <string name="jailbreak_no_patch">解封模式下不允许锻造修补。</string>
-    <string name="jailbreak">解封</string>
+    <string name="jailbreak">越狱</string>
     <string name="jailbreak_triggered">解封已触发，等拿到 OP 权限就快速重生。</string>
     <string name="reboot_soft">快速重生</string>
     <string name="settings_faq">常见问题</string>
@@ -1419,12 +1419,12 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="theme_download_paused">暂停</string>
     <string name="settings_wallpaper_gallery">冒險圖鑑</string>
     <string name="wallpaper_device_phone">旅者手機</string>
-    <string name="wallpaper_device_tablet">冒險平板</string>
+    <string name="wallpaper_device_tablet">平板</string>
     <string name="wallpaper_layout_waterfall">瀑布流</string>
     <string name="wallpaper_layout_stack">疊放</string>
     <string name="wallpaper_device_mixed">混編</string>
     <string name="wallpaper_display_options">陳列選項</string>
-    <string name="wallpaper_display_layout">排版</string>
+    <string name="wallpaper_display_layout">布局</string>
     <string name="wallpaper_download">拾取下載</string>
     <string name="wallpaper_cancel">放棄</string>
     <string name="wallpaper_saved">已收入行囊</string>
@@ -1435,4 +1435,68 @@ KernelPatch 附魔需要 boot 方块作为材料。
     <string name="wallpaper_preview">偵察</string>
     <string name="wallpaper_set_background">設為背景</string>
     <string name="wallpaper_background_set">背景已更新</string>
+    <string name="settings">设置</string>
+    <string name="dont_show_again">不再显示</string>
+    <string name="got_it">知道了</string>
+    <string name="backup_failed">备份失败：%s</string>
+    <string name="delete_failed">删除失败：%s</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_remote_backup_confirm">确定要删除云端备份吗？</string>
+    <string name="restore_failed">还原失败：%s</string>
+    <string name="settings_auto_backup">自动备份</string>
+    <string name="settings_auto_backup_summary">每天自动备份一次</string>
+    <string name="settings_backup_now">立即备份</string>
+    <string name="settings_backup_password">备份密码</string>
+    <string name="settings_backup_password_hint">输入备份密码</string>
+    <string name="settings_delete_remote_backup">删除云端备份</string>
+    <string name="settings_encrypt_backup">加密备份</string>
+    <string name="settings_encrypt_backup_summary">使用密码加密备份文件</string>
+    <string name="settings_restore_backup">还原备份</string>
+    <string name="settings_test_webdav">测试 WebDAV 连接</string>
+    <string name="settings_webdav_password">WebDAV 密码</string>
+    <string name="settings_webdav_username">WebDAV 用户名</string>
+    <string name="webdav_password">密码</string>
+    <string name="webdav_username">用户名</string>
+    <string name="msg_selinux_enforcing_confirm">切换到强制模式？SELinux 将完整执行所有访问规则，并拒绝未授权的访问尝试。</string>
+    <string name="msg_selinux_permissive_warning">切换到宽容模式将停用 SELinux 强制执行，访问违规只会被记录而不会被拒绝，安全性会降低。要继续吗？</string>
+    <string name="settings_show_disable_all_modules">显示「停用所有模块」按钮</string>
+    <string name="settings_show_disable_all_modules_summary">在模块页面显示一键停用所有模块的按钮</string>
+    <string name="shizuku_manage_apps">管理已授权应用</string>
+    <string name="su_app_action_title">应用操作</string>
+    <string name="theme_download">下载</string>
+    <string name="theme_install">安装</string>
+    <string name="theme_install_failed">安装失败</string>
+    <string name="theme_install_success">安装成功</string>
+    <string name="settings_grid_working_card_hide_text_summary">隐藏工作卡片上的「运行中」或「未安装」文字</string>
+    <string name="settings_custom_badge_text_built_in">内置</string>
+    <string name="settings_custom_badge_text_full_half">完整/半量（默认）</string>
+    <string name="reboot_download_confirm">要重启进入 Download 模式吗？设备将进入固件刷写界面。</string>
+    <string name="reboot_edl_confirm">要重启进入 EDL（紧急下载）模式吗？屏幕将保持黑屏，只能用深度刷机工具恢复。</string>
+    <string name="script_library_add_failed">添加脚本失败：%s</string>
+    <string name="script_library_add_success">脚本添加成功</string>
+    <string name="script_library_add_title">添加脚本</string>
+    <string name="script_library_alias">别名</string>
+    <string name="script_library_alias_hint">输入脚本别名（可选）</string>
+    <string name="script_library_load_failed">脚本库加载失败</string>
+    <string name="script_library_path">路径：%s</string>
+    <string name="script_library_run">运行</string>
+    <string name="script_library_select_file">选择脚本文件</string>
+        <string name="app_title_apatch">APatch</string>
+        <string name="app_title_apatch_folk">APatch Folk</string>
+        <string name="app_title_apatchx">APatch X</string>
+        <string name="app_title_folkpatch">FolkPatch</string>
+        <string name="app_title_fpatch">FPatch</string>
+        <string name="app_title_kernelpatch">KernelPatch</string>
+        <string name="app_title_kernelsu">KernelSU</string>
+        <string name="app_title_magicpatch">MagicPatch</string>
+        <string name="app_title_superpatch">SuperPatch</string>
+        <string name="app_title_superroot">SuperRoot</string>
+        <string name="app_title_supersu">SuperSU</string>
+        <string name="app_title_superuser">Superuser</string>
+        <string name="path_hide_paths_placeholder">/storage/emulated/0/file.txt\n/storage/emulated/0/folder</string>
+        <string name="settings_custom_badge_text_gki">GKI</string>
+        <string name="settings_custom_badge_text_lkm">LKM</string>
+        <string name="settings_custom_badge_text_n_gki">N-GKI</string>
+        <string name="settings_custom_badge_text_oki">OKI</string>
+        <string name="settings_webdav_url">WebDAV URL</string>
 </resources>

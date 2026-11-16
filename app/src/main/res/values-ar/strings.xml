@@ -7,7 +7,7 @@
     <string name="apm_search_hint">البحث في وحدات النظام</string>
     <string name="kpm_search_hint">البحث في وحدات النواة</string>
     <string name="su_search_hint">ابحث عن التطبيقات</string>
-    <string name="launcher_icon_style_anime">أنيمي</string>
+    <string name="launcher_icon_style_anime">أنمي</string>
     <string name="launcher_icon_style_geometry">هندسي</string>
     <string name="launcher_icon_style_apatch">APatch</string>
     <string name="settings_floating_bar_style">نمط الشريط السفلي العائم</string>
@@ -24,7 +24,7 @@
     <string name="failure">فشل</string>
 
     <string name="patch_warnning">التثبيت ينطوي على مخاطر. يرجى التأكد من نسخ بياناتك احتياطيًا.</string>
-    <string name="patch">تصحيح</string>
+    <string name="patch">ترقيع</string>
 
     <string name="kernel_patch">تصحيح النواة</string>
     <string name="android_patch">تصحيح أندرويد</string>
@@ -86,21 +86,21 @@
     <string name="settings_clear_super_key_dialog">هل تريد حقًا المتابعة؟</string>
     <string name="settings_sucompat">توافق su القديم</string>
     <string name="settings_sucompat_summary">تفعيل توافق su القديم (لحالات عدم عمل su)</string>
-    <string name="settings_selinux_hide">إخفاء تعديل SELinux (اختباري)</string>
-    <string name="settings_selinux_hide_summary">إخفاء تعديلات SELinux لمنع اكتشافها من قبل عمليات المستخدم (قد تكون هذه الميزة غير مستقرة). يمكن للوضع الآمن تعطيل هذه الميزة.</string>
+    <string name="settings_selinux_hide">إخفاء تعديلات SELinux (تجريبي)</string>
+    <string name="settings_selinux_hide_summary">إخفاء تغييرات SELinux حتى لا تكتشفها عمليات المستخدم (قد تكون غير مستقرة). الوضع الآمن يعطّلها.</string>
     <string name="settings_selinux_hide_warning_title">تحذير</string>
-    <string name="settings_selinux_hide_warning_below_5_10">تم اختبار هذه الميزة على نواة 5.10 وما فوق فقط وقد تكون غير مستقرة على إصدارات النواة الأقل.</string>
-    <string name="settings_selinux_hide_warning_non_gki">تحمل النوى غير GKI مخاطر أكبر وقد تؤدي إلى فشل الإقلاع. تأكد من عمل نسخة احتياطية لبياناتك.</string>
+    <string name="settings_selinux_hide_warning_below_5_10">تم اختباره على نواة 5.10 وما فوق فقط، وقد يكون غير مستقر على الإصدارات الأقدم.</string>
+    <string name="settings_selinux_hide_warning_non_gki">النوى غير GKI تنطوي على مخاطر أعلى وقد تسبب فشل الإقلاع. تأكد من وجود نسخة احتياطية لبياناتك.</string>
     <string name="settings_grid_working_card_hide_check">إخفاء أيقونة الحالة</string>
     <string name="settings_grid_working_card_hide_check_summary">إخفاء علامة الصح أو أيقونة التحذير في بطاقة الحالة</string>
     <string name="settings_grid_working_card_hide_text">إخفاء نص الحالة</string>
-    <string name="settings_grid_working_card_hide_text_summary">إخفاء نص "يعمل" أو "غير مثبت" في بطاقة الحالة</string>
+    <string name="settings_grid_working_card_hide_text_summary">إخفاء نص «قيد التشغيل» أو «غير مثبّت» على بطاقة العمل</string>
     <string name="settings_grid_working_card_hide_mode">إخفاء وضع العمل</string>
     <string name="settings_grid_working_card_hide_mode_summary">إخفاء نص "كامل" أو "نصف" في بطاقة الحالة</string>
 
 
     <string name="su_exclude_all_title">استثناء الكل</string>
-    <string name="su_exclude_all_confirm">هل أنت متأكد من أنك تريد استثناء جميع التطبيقات التي لا تتطلب صلاحيات الروت؟</string>
+    <string name="su_exclude_all_confirm">هل تريد بالتأكيد استثناء جميع التطبيقات غير الجذرية؟</string>
     <string name="su_batch_exclude_title">استثناء دفعة</string>
     <string name="su_batch_exclude_content">استثناء الحقن لجميع التطبيقات التي لا تتطلب صلاحيات الروت، يرجى تحديد إجراء</string>
     <string name="su_exclude_btn">استثناء</string>
@@ -174,9 +174,9 @@
     <string name="home_ap_cando_uninstall">إلغاء التثبيت</string>
     <string name="home_ap_cando_reboot">إعادة التشغيل</string>
 
-    <string name="patch_title">تصحيح</string>
+    <string name="patch_title">ترقيع</string>
 
-    <string name="patch_config_title">التصحيحات</string>
+    <string name="patch_config_title">إعدادات الترقيع</string>
     <string name="patch_mode_bootimg_patch">الوضع: تصحيح</string>
     <string name="patch_mode_patch_and_install">الوضع: تصحيح وتثبيت</string>
     <string name="patch_mode_install_to_next_slot">الوضع: التثبيت في الفتحة غير النشطة (بعد OTA)</string>
@@ -194,7 +194,7 @@
     <string name="patch_item_kpimg">kpimg</string>
     <string name="patch_item_kpimg_version">الإصدار:</string>
     <string name="patch_item_kpimg_comile_time">الوقت:</string>
-    <string name="patch_item_kpimg_config">الإعدادات:</string>
+    <string name="patch_item_kpimg_config">الإعداد:</string>
     <string name="patch_item_new_extra_kpm">تضمين جديد</string>
     <string name="patch_item_existed_extra_kpm">موجود</string>
     <string name="patch_item_extra_name">الاسم:</string>
@@ -214,7 +214,7 @@
 
     <string name="home_kernel">إصدار النواة</string>
     <string name="home_manager_version">إصدار المدير</string>
-    <string name="home_fingerprint">البصمة الرقمية</string>
+    <string name="home_fingerprint">البصمة</string>
 
     <string name="home_selinux_status">حالة SELinux</string>
     <string name="home_selinux_status_disabled">معطل</string>
@@ -245,11 +245,11 @@
     <string name="kpm_embedded">مضمن</string>
     <string name="kpm_loaded">محمل</string>
     <string name="kpm_load_toast_succ">نجح التحميل</string>
-    <string name="kpm_install_toast_succ">تم التثبيت بنجاح؛ يسري بعد إعادة التشغيل</string>
+    <string name="kpm_install_toast_succ">تم التثبيت بنجاح؛ يسري مفعوله بعد إعادة التشغيل</string>
     <string name="kpm_load_toast_failed">فشل التحميل</string>
     <string name="kpm_unload_confirm">إلغاء تحميل وحدة %s؟</string>
     <string name="kpm_unload">إلغاء التحميل</string>
-    <string name="kpm_control">تحكم</string>
+    <string name="kpm_control">التحكم</string>
     <string name="kpm_apm_empty">لا توجد وحدات محملة</string>
     <string name="kpm_custom_order">تبديل ترتيب الوحدات المخصص</string>
     <string name="kpm_load_failed">فشل تحميل وحدات النواة</string>
@@ -264,7 +264,7 @@
     <string name="su_pkg_excluded_label">استثناء</string>
     <string name="su_pkg_excluded_setting_title">استثناء التعديلات</string>
     <string name="su_pkg_excluded_setting_summary">سيمكن تفعيل هذا الخيار FolkPatch من استعادة أي ملفات تم تعديلها بواسطة وحدات هذا التطبيق.</string>
-    <string name="su_pkg_root_setting_title">المستخدم المتميز</string>
+    <string name="su_pkg_root_setting_title">المستخدم الخارق</string>
     <string name="su_pkg_root_setting_summary">تفعيل هذا الخيار لمنح صلاحيات المستخدم المتميز لتطبيقك، مما يسمح باستخدام أوامر SU</string>
     <string name="su_pkg_normal_setting_title">الوضع العادي</string>
     <string name="su_pkg_normal_setting_summary">لم يتم منح حق الوصول إلى الجذر، يتم تشغيل التطبيق بدون صلاحيات المستخدم المتميز.</string>
@@ -331,7 +331,7 @@
     <string name="module_shortcut_icon">أيقونة الاختصار</string>
     <string name="module_shortcut_type">نوع الاختصار</string>
     <string name="module_shortcut_type_webui">WebUI</string>
-    <string name="module_shortcut_type_action">Action</string>
+    <string name="module_shortcut_type_action">إجراء</string>
     <string name="module_shortcut_icon_default">استخدام الأيقونة الافتراضية</string>
     <string name="module_shortcut_icon_select">اختيار أيقونة</string>
     <string name="enable_web_debugging">تمكين تصحيح أخطاء WebView</string>
@@ -371,8 +371,8 @@
     <string name="settings_fold_system_module_summary">انقر على بطاقة الوحدة للتوسيع/الطي الإجراءات</string>
         <string name="settings_simple_list_bottom_bar">شريط سفلي بسيط</string>
         <string name="settings_simple_list_bottom_bar_summary">استخدم أزرار الأيقونات فقط لإجراءات الوحدة، مستوحى من APatch</string>
-    <string name="settings_spliced_card_group">Spliced Card Group</string>
-    <string name="settings_spliced_card_group_summary">Use M3E continuous card group style for module list</string>
+    <string name="settings_spliced_card_group">مجموعة بطاقات متصلة</string>
+    <string name="settings_spliced_card_group_summary">استخدام نمط مجموعة البطاقات المتصلة من M3E لقائمة الوحدات</string>
     <string name="settings_show_kpm_status_badge">إظهار شارة حالة KPM</string>
     <string name="settings_show_kpm_status_badge_summary">إظهار شارة مضمن/محمل على بطاقات KPM</string>
     <string name="apm_install_confirm_title">تثبيت الوحدة</string>
@@ -461,7 +461,7 @@
     <string name="home_more_menu_music_pause">إيقاف الموسيقى مؤقتًا</string>
 
     <!-- Plugin strings -->
-    <string name="plugin_title">المكونات الإضافية</string>
+    <string name="plugin_title">الإضافات</string>
     <string name="plugin_refresh">تحديث</string>
     <string name="plugin_summary_title">APD Lua Plugin</string>
     <string name="plugin_summary_not_installed">APD غير مثبت · المكونات غير متاحة</string>
@@ -518,7 +518,7 @@
     <string name="settings_use_system_color_theme_summary">استخدام سمة الألوان التي تم إنشاؤها من خلفية الشاشة بواسطة النظام</string>
     <string name="settings_custom_color_theme">سمة اللون</string>
 
-    <string name="amber_theme">عنبري</string>
+    <string name="amber_theme">كهرماني</string>
     <string name="blue_theme">أزرق</string>
     <string name="blue_grey_theme">أزرق رمادي</string>
     <string name="brown_theme">بني</string>
@@ -588,7 +588,7 @@
     <string name="online_module_repo_list_title">قائمة المستودعات</string>
     <string name="online_module_load_error">فشل التحميل، يرجى التحديث والمحاولة مرة أخرى</string>
     <string name="online_module_no_search_results">لم يتم العثور على وحدات مطابقة</string>
-    <string name="online_module_module_detail_download_count">عدد التنزيلات: %1$s</string>
+    <string name="online_module_module_detail_download_count">التنزيلات: %1$s</string>
     <string name="online_module_module_detail_last_update">آخر تحديث: %1$s</string>
     <string name="online_module_module_detail_version">الإصدار: %1$s</string>
     <string name="online_module_module_detail_size">الحجم: %1$s</string>
@@ -1035,7 +1035,7 @@
     <string name="settings_music_saved">تم حفظ ملف الموسيقى</string>
     <string name="settings_music_save_error">فشل حفظ ملف الموسيقى</string>
     <string name="settings_music_cleared">تم مسح الموسيقى</string>
-    <string name="settings_category_multimedia">الوسائط المتعددة</string>
+    <string name="settings_category_multimedia">وسائط متعددة</string>
     <string name="settings_category_general_summary">اللغة، التحديثات، SELinux، تعديلات النظام</string>
     <string name="settings_category_appearance_summary">السمة، الألوان، التخطيط، الخلفية، الخطوط</string>
     <string name="settings_category_behavior_summary">تصحيح أخطاء الويب، سلوك التثبيت، عرض الشاشة الرئيسية</string>
@@ -1109,22 +1109,22 @@
     <string name="badge_superuser">إظهار شارة المستخدم المتميز</string>
     <string name="badge_apm">إظهار شارة وحدات النظام</string>
     <string name="badge_kernel">إظهار شارة وحدة النواة</string>
-    <string name="settings_sound_effect">Sound Effect</string>
-    <string name="settings_sound_effect_summary">Play sound effect on click</string>
-    <string name="settings_sound_effect_enabled">Enabled</string>
-    <string name="settings_sound_effect_playing">Selected: %s</string>
+    <string name="settings_sound_effect">مؤثر صوتي</string>
+    <string name="settings_sound_effect_summary">تشغيل مؤثر صوتي عند النقر</string>
+    <string name="settings_sound_effect_enabled">مفعّل</string>
+    <string name="settings_sound_effect_playing">المحدد: %s</string>
     <string name="settings_sound_effect_source">مصدر الصوت</string>
     <string name="settings_sound_effect_source_local">ملف محلي</string>
-    <string name="settings_sound_effect_source_preset">مسبق</string>
+    <string name="settings_sound_effect_source_preset">مسبق الإعداد</string>
     <string name="settings_sound_effect_preset_title">أصوات مسبقة</string>
-    <string name="settings_select_sound_effect">Select Sound Effect</string>
-    <string name="settings_sound_effect_selected">Sound effect file selected</string>
-    <string name="settings_sound_effect_scope">Effect Scope</string>
-    <string name="settings_sound_effect_scope_global">Global (Anywhere)</string>
-    <string name="settings_sound_effect_scope_bottom_bar">Bottom Bar Only</string>
-    <string name="settings_clear_sound_effect">Clear Sound Effect</string>
-    <string name="settings_clear_sound_effect_confirm">Are you sure you want to clear the sound effect?</string>
-    <string name="settings_sound_effect_cleared">Sound effect cleared</string>
+    <string name="settings_select_sound_effect">اختيار المؤثر الصوتي</string>
+    <string name="settings_sound_effect_selected">تم اختيار ملف المؤثر الصوتي</string>
+    <string name="settings_sound_effect_scope">نطاق التأثير</string>
+    <string name="settings_sound_effect_scope_global">عام (في أي مكان)</string>
+    <string name="settings_sound_effect_scope_bottom_bar">الشريط السفلي فقط</string>
+    <string name="settings_clear_sound_effect">مسح المؤثر الصوتي</string>
+    <string name="settings_clear_sound_effect_confirm">هل تريد بالتأكيد مسح المؤثر الصوتي؟</string>
+    <string name="settings_sound_effect_cleared">تم مسح المؤثر الصوتي</string>
 
     <string name="settings_startup_sound">صوت بدء التشغيل</string>
     <string name="settings_startup_sound_summary">تشغيل صوت عند بدء التطبيق</string>
@@ -1173,7 +1173,7 @@
     <string name="script_library_add_title">إضافة سكربت</string>
     <string name="script_library_select_file">اختيار ملف السكربت</string>
     <string name="script_library_alias">الاسم المستعار</string>
-    <string name="script_library_alias_hint">أدخل اسم السكربت (اختياري)</string>
+    <string name="script_library_alias_hint">أدخل اسمًا مستعارًا للسكربت (اختياري)</string>
     <string name="script_library_run">تشغيل</string>
     <string name="script_library_delete">حذف</string>
     <string name="script_library_path">المسار: %s</string>
@@ -1201,7 +1201,7 @@
     <string name="search_scripts">بحث في السكربتات...</string>
 
     <!-- Umount Service -->
-    <string name="settings_umount_service">Umount Service</string>
+    <string name="settings_umount_service">خدمة إلغاء التحميل</string>
     <string name="settings_umount_service_summary">تكوين نقاط التثبيت للإلغاء التلقائي عند التشغيل</string>
     <string name="umount_config_title">تكوين Umount</string>
     <string name="umount_config_enabled">تفعيل Umount</string>
@@ -1249,7 +1249,7 @@
     <string name="settings_predictive_back">إيماءة العودة التنبؤية</string>
     <string name="settings_predictive_back_summary">تمكين رسوم إيماءة العودة التنبؤية المتحركة في Android 14+</string>
     <string name="settings_expressive_motion">حركة تعبيرية</string>
-    <string name="settings_expressive_motion_summary">استخدم منحنيات الحركة في Material 3 Expressive</string>
+    <string name="settings_expressive_motion_summary">استخدام منحنيات حركة Material 3 Expressive</string>
 
     <string name="home_device_status_battery_charging">جارٍ الشحن</string>
     <string name="home_device_status_cpu_temp">درجة حرارة المعالج</string>
@@ -1257,7 +1257,7 @@
     <string name="home_storage_partitions">أقسام التخزين</string>
     <string name="home_device_status_cpu_freq">تردد المعالج</string>
     <string name="home_network_rx">تنزيل</string>
-    <string name="home_network_tx">رفع</string>
+    <string name="home_network_tx">إرسال</string>
     <string name="settings_home_layout_stats">StatsUI</string>
     <string name="home_stats_more_options">خيارات أخرى</string>
     <string name="home_stats_kp_label">KP</string>
@@ -1331,7 +1331,7 @@
     <!-- Color Style -->
     <string name="color_style_label">نمط الألوان</string>
     <string name="color_style_tonal_spot">بقعة نغمية</string>
-    <string name="color_style_vibrant">نابض بالحياة</string>
+    <string name="color_style_vibrant">نابض</string>
     <string name="color_style_content">المحتوى</string>
     <string name="color_style_expressive">تعبيري</string>
     <string name="color_style_rainbow">قوس قزح</string>
@@ -1408,8 +1408,8 @@
     <string name="jailbreak_triggered">تم تفعيل كسر الحماية. انتظر الحصول على صلاحيات الجذر ثم قم بإعادة تشغيل ناعمة.</string>
     <string name="reboot_soft">إعادة تشغيل ناعمة</string>
     <string name="kpm_installed">مثبّت</string>
-    <string name="kpm_disabled">معطّل (يسري بعد إعادة التشغيل)</string>
-    <string name="kpm_embedded_unload_invalid">لا يمكن إلغاء تحميل وحدات KPM المضمّنة؛ ستظل فعّالة بعد إعادة التشغيل.</string>
+    <string name="kpm_disabled">معطّل (يسري مفعوله بعد إعادة التشغيل)</string>
+    <string name="kpm_embedded_unload_invalid">لا يمكن إلغاء تحميل وحدات KPM المدمجة؛ ستبقى نشطة بعد إعادة التشغيل.</string>
     <string name="settings_faq">الأسئلة الشائعة</string>
     <string name="settings_bug_feedback">الإبلاغ عن خطأ</string>
     <string name="settings_clear_cache">مسح ذاكرة التخزين المؤقت</string>
@@ -1439,4 +1439,62 @@
     <string name="wallpaper_preview">معاينة</string>
     <string name="wallpaper_set_background">تعيين كخلفية</string>
     <string name="wallpaper_background_set">تم تحديث الخلفية</string>
+    <string name="dont_show_again">عدم الإظهار مرة أخرى</string>
+    <string name="got_it">فهمت</string>
+    <string name="backup_failed">فشل النسخ الاحتياطي: %s</string>
+    <string name="delete_failed">فشل الحذف: %s</string>
+    <string name="delete_success">تم الحذف بنجاح</string>
+    <string name="delete_remote_backup_confirm">هل تريد بالتأكيد حذف النسخة الاحتياطية السحابية؟</string>
+    <string name="restore_failed">فشل الاستعادة: %s</string>
+    <string name="restore_success">تمت الاستعادة بنجاح</string>
+    <string name="settings_auto_backup">نسخ احتياطي تلقائي</string>
+    <string name="settings_auto_backup_summary">نسخ احتياطي تلقائي مرة واحدة يوميًا</string>
+    <string name="settings_backup_now">النسخ الاحتياطي الآن</string>
+    <string name="settings_backup_password">كلمة مرور النسخ الاحتياطي</string>
+    <string name="settings_backup_password_hint">أدخل كلمة مرور النسخ الاحتياطي</string>
+    <string name="settings_delete_remote_backup">حذف النسخة السحابية</string>
+    <string name="settings_encrypt_backup">تشفير النسخة الاحتياطية</string>
+    <string name="settings_encrypt_backup_summary">تشفير ملف النسخة الاحتياطية بكلمة مرور</string>
+    <string name="settings_restore_backup">استعادة النسخة الاحتياطية</string>
+    <string name="settings_webdav_password">كلمة مرور WebDAV</string>
+    <string name="settings_webdav_username">اسم مستخدم WebDAV</string>
+    <string name="msg_selinux_enforcing_confirm">التبديل إلى وضع الإجبار؟ سيطبّق SELinux جميع قواعد الوصول بالكامل ويرفض محاولات الوصول غير المصرح بها.</string>
+    <string name="msg_selinux_permissive_warning">التبديل إلى وضع التساهل سيعطّل إنفاذ SELinux. هذا يقلل الأمان لأن الانتهاكات ستُسجَّل فقط دون رفضها. المتابعة؟</string>
+    <string name="settings_show_disable_all_modules">إظهار زر «تعطيل جميع الوحدات»</string>
+    <string name="settings_show_disable_all_modules_summary">إظهار زر لتعطيل جميع الوحدات دفعة واحدة في صفحة الوحدات</string>
+    <string name="shizuku_manage_apps">إدارة التطبيقات المصرح لها</string>
+    <string name="ink_wash_theme">حبر صيني</string>
+    <string name="theme_download">تنزيل</string>
+    <string name="theme_install">تثبيت</string>
+    <string name="theme_install_failed">فشل التثبيت</string>
+    <string name="theme_install_success">تم التثبيت بنجاح</string>
+    <string name="focus_card_background_title">خلفية البطاقة</string>
+    <string name="focus_card_background_clear">مسح خلفية البطاقة</string>
+    <string name="focus_card_background_clear_confirm">هل تريد بالتأكيد مسح خلفية هذه البطاقة؟</string>
+    <string name="focus_card_background_cleared">تم مسح خلفية البطاقة</string>
+    <string name="focus_card_background_error">فشل حفظ خلفية البطاقة</string>
+    <string name="focus_card_background_saved">تم حفظ خلفية البطاقة بنجاح</string>
+    <string name="focus_card_permission_required">يرجى منح إذن التخزين لاختيار خلفية</string>
+    <string name="settings_custom_badge_text_built_in">مدمج</string>
+    <string name="settings_custom_badge_text_full_half">كامل/نصف (افتراضي)</string>
+    <string name="reboot_download_confirm">إعادة التشغيل إلى وضع التنزيل؟ سيقلع الجهاز إلى واجهة تفليش البرنامج الثابت.</string>
+    <string name="reboot_edl_confirm">إعادة التشغيل إلى وضع EDL (التنزيل الطارئ)؟ ستبقى الشاشة سوداء ولا يمكن الاسترداد إلا بأداة تفليش عميق.</string>
+        <string name="app_title_apatch">APatch</string>
+        <string name="app_title_apatch_folk">APatch Folk</string>
+        <string name="app_title_apatchx">APatch X</string>
+        <string name="app_title_folkpatch">FolkPatch</string>
+        <string name="app_title_fpatch">FPatch</string>
+        <string name="app_title_kernelpatch">KernelPatch</string>
+        <string name="app_title_kernelsu">KernelSU</string>
+        <string name="app_title_magicpatch">MagicPatch</string>
+        <string name="app_title_superpatch">SuperPatch</string>
+        <string name="app_title_superroot">SuperRoot</string>
+        <string name="app_title_supersu">SuperSU</string>
+        <string name="app_title_superuser">Superuser</string>
+        <string name="path_hide_paths_placeholder">/storage/emulated/0/file.txt\n/storage/emulated/0/folder</string>
+        <string name="settings_custom_badge_text_gki">GKI</string>
+        <string name="settings_custom_badge_text_lkm">LKM</string>
+        <string name="settings_custom_badge_text_n_gki">N-GKI</string>
+        <string name="settings_custom_badge_text_oki">OKI</string>
+        <string name="settings_webdav_url">WebDAV URL</string>
 </resources>
